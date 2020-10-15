@@ -84,6 +84,11 @@
     padding-right: 8%;
   }
 
+  .moblie_font
+  {
+    font-size: 14px;
+  }
+
 }
 
 /*
@@ -108,6 +113,11 @@ p {
   width: 100;
   margin: 0 auto;
   padding-right: 8%;
+}
+
+.moblie_font
+{
+  font-size: 14px;
 }
 
 }
