@@ -54,8 +54,8 @@
   .container-fluid  {
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
   }
 
 }
@@ -67,6 +67,23 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
+  p {
+    text-align: justify;
+    width: 100%;
+    width: 100;
+    margin: 0 auto;
+    padding-right: 8%;
+  }
+
+  .paper {
+
+    text-align: justify;
+    width: 100%;
+    width: 100;
+    margin: 0 auto;
+    padding-right: 8%;
+  }
+
 }
 
 /*
@@ -76,6 +93,21 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+p {
+  text-align: justify;
+  width: 100%;
+  width: 100;
+  margin: 0 auto;
+  padding-right: 8%;
+}
 
+.paper {
+
+  text-align: justify;
+  width: 100%;
+  width: 100;
+  margin: 0 auto;
+  padding-right: 8%;
+}
 
 }
