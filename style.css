@@ -517,6 +517,10 @@ nav {
     border-bottom-color: var(--harvard-crimson);
 }
 
+.discussion-item a {
+    color: var(--harvard-crimson);
+}
+
 /* Rafa Gallery */
 .gallery-grid {
     display: grid;
