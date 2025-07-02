@@ -101,6 +101,23 @@
             justify-content: space-between;
             margin-bottom: 10px;
         }
+
+        .abstract-toggle {
+            background: none;
+            border: 1px solid #2c5aa0;
+            color: #2c5aa0;
+            padding: 3px 10px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-top: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .abstract-toggle:hover {
+            background: #2c5aa0;
+            color: white;
+        }
         
         .left-content {
             flex: 1;
@@ -234,7 +251,7 @@
         /* Mobile responsive design */
         @media (max-width: 768px) {
             body {
-                padding: 20px 30px 20px 20px;
+                padding: 20px;
                 font-size: 14px;
             }
             
@@ -262,12 +279,13 @@
             }
         }
     </style>
+    </style>
 </head>
 <body>
     <header>
         <h1>SOUMITRA SHUKLA</h1>
         <div class="contact-info">
-            <a href="mailto:sshukla@burningglassinstitute.org">sshukla@burningglassinstitute.org</a>  
+            <a href="mailto:sshukla@burningglassinstitute.org">sshukla@burningglassinstitute.org</a> • 
             <a href="https://soumitrashukla.github.io">soumitrashukla.github.io</a>
         </div>
     </header>
@@ -343,6 +361,7 @@
         <h2>Working Papers</h2>
         <div class="paper-item">
             <div class="paper-title">Making the Elite: Class Discrimination at Multinationals</div>
+            <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
             <div class="abstract">
                 How salient is hiring discrimination in driving socioeconomic gaps in elite job access, and where do these disparities emerge? Measuring class-based discrimination is challenging, especially in Western contexts where status is often inferred from subtle markers such as accent, education, or networks. India's caste system offers a uniquely explicit measure of social class, enabling precise identification of how social status affects access to elite positions. Analyzing detailed screening data from over 1,000 jobs at US and European multinationals in India, this paper provides the first systematic quantification of class bias in elite recruitment, demonstrating that subjective personal interviews assessing candidate "fit" drive nearly 90 percent of caste-based hiring disparities. However, hired disadvantaged castes have around 20 percent higher promotion rates, even in highly selective roles, indicating these disparities cannot be justified by differences in candidate quality. To formally distinguish discrimination from unobserved ability differences, I develop a novel theoretical framework utilizing plausibly exogenous variations in job selectivity, which I empirically test using promotion data. Consistently higher promotion rates among disadvantaged hires across selectivity tiers support the theory's prediction of systematic caste-based differences in hiring thresholds rather than unobserved ability. Given these persistent promotion advantages and the fact that roles are predominantly non-customer-facing, results suggest bias rather than statistical or customer-driven discrimination. These findings highlight a critical organizational challenge: preserving necessary screening discretion without reinforcing class biases that hinder diversity and efficient talent allocation.
             </div>
@@ -351,6 +370,7 @@
         <div class="paper-item">
             <div class="paper-title">Interviews</div>
             <div class="coauthors">with Jason Sockin and Elliott Ash</div>
+            <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
             <div class="abstract">
                 Interviews allow employers to learn about workers, but do they also enable workers to learn about firms? Using data on hundreds of thousands of interview reports from Glassdoor, we find that candidates for high-paying jobs are 9 percent more likely to reject a job offer if they believe the interview was easy. Easy interviews appear to convey poor "fit" as those who accept offers after easy interviews are one-half of a standard deviation less satisfied with their jobs and 14 percent less likely to remain with their employer for at least one year. Analysis of interview narratives using a large language model reveals that difficult interviews signal colleague ability and opportunities for skill development, whereas easy interviews convey a nonselective process. Interviews offer workers a preview of match quality, highlighting a unique channel through which labor markets may become less efficient if firms fully automate their hiring processes with AI.
             </div>
@@ -454,5 +474,18 @@
             </div>
         </div>
     </section>
+    
+    <script>
+        function toggleAbstract(button) {
+            const abstract = button.nextElementSibling;
+            if (abstract.style.display === 'none' || abstract.style.display === '') {
+                abstract.style.display = 'block';
+                button.textContent = 'Hide Abstract';
+            } else {
+                abstract.style.display = 'none';
+                button.textContent = 'Show Abstract';
+            }
+        }
+    </script>
 </body>
 </html>
