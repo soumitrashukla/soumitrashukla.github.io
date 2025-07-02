@@ -13,12 +13,14 @@
            For Harvard Crimson Theme: --accent-color: #A51C30;
            
            Just change the hex value below!
+           
+           This CV is mobile-responsive and print-friendly
            ================================= */
         
         :root {
             /* MAIN THEME COLOR - Change this value to switch themes */
-            /* --accent-color: #2c5aa0;  /* Blue theme (current) */
-            --accent-color: #A51C30; */  /* Harvard crimson theme */
+            --accent-color: #2c5aa0;  /* Blue theme (current) */
+            /* --accent-color: #A51C30; */  /* Harvard crimson theme */
             
             /* This controls all accent colors throughout the CV:
                - Section headings
@@ -45,7 +47,6 @@
         
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
-            font-size: 16px
             line-height: 1.6;
             color: #333;
             background: white;
@@ -74,7 +75,7 @@
         }
         
         .contact-info {
-            font-size: 12px;
+            font-size: 14px;
             color: #666;
         }
         
@@ -117,7 +118,7 @@
         
         .date {
             color: #888;
-            font-size: 12px;
+            font-size: 14px;
         }
         
         .paper-item {
@@ -132,14 +133,14 @@
         
         .coauthors {
             color: #666;
-            font-size: 12px;
+            font-size: 14px;
             font-style: italic;
         }
         
         .abstract {
             margin-top: 8px;
             text-align: justify;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 1.5;
             color: #555;
         }
@@ -170,7 +171,7 @@
         
         .year-tag {
             color: #888;
-            font-size: 12px;
+            font-size: 14px;
         }
         
         .references {
@@ -184,7 +185,7 @@
             background: #f8f8f8;
             padding: 15px;
             border-radius: 5px;
-            font-size: 12px;
+            font-size: 14px;
             border: 1px solid #e0e0e0;
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
@@ -229,11 +230,42 @@
                 print-color-adjust: exact !important;
             }
         }
+        
+        /* Mobile responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+                font-size: 14px;
+            }
+            
+            /* Stack references vertically on mobile */
+            .references {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            /* Adjust header for mobile */
+            h1 {
+                font-size: 28px;
+                letter-spacing: 1px;
+            }
+            
+            /* Make dates stack below content on mobile */
+            .education-item, .employment-item {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .date {
+                text-align: left;
+                color: #999;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Soumitra Shukla</h1>
+        <h1>SOUMITRA SHUKLA</h1>
         <div class="contact-info">
             <a href="mailto:sshukla@burningglassinstitute.org">sshukla@burningglassinstitute.org</a> • 
             <a href="https://soumitrashukla.github.io">soumitrashukla.github.io</a>
