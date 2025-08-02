@@ -603,3 +603,162 @@ nav {
         font-size: 1rem;
     }
 }
+
+/* Rafa's Namecard Styles */
+.rafa-namecard {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+    margin: 2.5rem 0;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rafa-namecard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.rafa-namecard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--harvard-crimson), var(--light-crimson));
+}
+
+.namecard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--warm-gray);
+}
+
+.namecard-header h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2rem;
+    color: var(--harvard-crimson);
+    margin: 0;
+    font-weight: 700;
+}
+
+.paw-icon {
+    font-size: 2rem;
+    animation: wiggle 2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+}
+
+.namecard-content {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.namecard-section {
+    padding: 1rem;
+    background-color: var(--warm-gray);
+    border-radius: 10px;
+}
+
+.namecard-section h4 {
+    font-family: 'Crimson Text', serif;
+    color: var(--harvard-crimson);
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.info-value {
+    color: var(--text-dark);
+}
+
+.hobby-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hobby-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+
+.hobby-list li::before {
+    content: '🦴';
+    position: absolute;
+    left: 0;
+    font-size: 0.9rem;
+}
+
+.research-area {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0;
+}
+
+.research-topic {
+    font-weight: 600;
+    color: var(--text-dark);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.research-subfields {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Mobile responsive for namecard */
+@media (max-width: 768px) {
+    .rafa-namecard {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .namecard-header h3 {
+        font-size: 1.5rem;
+    }
+    
+    .paw-icon {
+        font-size: 1.5rem;
+    }
+    
+    .namecard-section {
+        padding: 0.75rem;
+    }
+    
+    .namecard-section h4 {
+        font-size: 1rem;
+    }
+    
+    .info-item, .research-area {
+        font-size: 0.9rem;
+    }
+    
+    .research-subfields {
+        font-size: 0.85rem;
+    }
+}
