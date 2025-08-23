@@ -1,3 +1,17 @@
+.paper-item {
+    margin-bottom: 10px;
+}
+
+.paper-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.paper-meta {
+    color: #666;
+    font-size: 14px;
+}
+
 :root {
     --harvard-crimson: #A51C30;
     --dark-crimson: #8B1826;
@@ -232,6 +246,12 @@ nav {
     border-radius: 10px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
     transition: all 0.3s ease;
+}
+
+/* Smaller margin for papers in In Progress section */
+.section-title + .paper-item,
+.paper-item + .paper-item {
+    margin-bottom: 10px;
 }
 
 .paper-item:hover {
