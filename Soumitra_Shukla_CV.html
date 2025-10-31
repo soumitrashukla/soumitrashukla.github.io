@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumitra Shukla - CV</title>
+    <style>
+        /* =================================
+           GLOBAL COLOR SCHEME OPTIONS
+           
+           QUICK TOGGLE:
+           For Blue Theme: --accent-color: #2c5aa0;
+           For Harvard Crimson Theme: --accent-color: #A51C30;
+           
+           Just change the hex value below!
+           
+           This CV is mobile-responsive and print-friendly
+           ================================= */
+        
+        :root {
+            /* MAIN THEME COLOR - Change this value to switch themes */
+            --accent-color: #2c5aa0;  /* Blue theme (current) */
+            /* --accent-color: #A51C30; */  /* Harvard crimson theme */
+            
+            /* This controls all accent colors throughout the CV:
+               - Section headings
+               - Links
+               - Bullet points
+               - Reference names
+               - Header border
+            */
+            --header-border: var(--accent-color);
+            
+            /* Name color (keep black or match theme) */
+            --name-color: #000000;  /* Black (traditional) */
+            /* --name-color: var(--accent-color); */  /* Match theme color */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+            color-adjust: exact;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px;
+            max-width: 850px;
+            margin: 0 auto;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid var(--header-border);
+            padding-bottom: 20px;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: 300;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            color: var(--name-color);
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        h2 {
+            font-size: 18px;
+            color: var(--accent-color);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+        }
+        
+        .education-item, .employment-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .abstract-toggle {
+            background: none;
+            border: 1px solid #2c5aa0;
+            color: #2c5aa0;
+            padding: 3px 10px;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-top: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .abstract-toggle:hover {
+            background: #2c5aa0;
+            color: white;
+        }
+        
+        .left-content {
+            flex: 1;
+        }
+        
+        .institution {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .institution.non-bold {
+            font-weight: normal;
+        }
+        
+        .degree {
+            color: #666;
+            font-style: italic;
+        }
+        
+        .date {
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .paper-item {
+            margin-bottom: 20px;
+        }
+        
+        .paper-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .coauthors {
+            color: #666;
+            font-size: 14px;
+            font-style: italic;
+        }
+        
+        .abstract {
+            margin-top: 8px;
+            text-align: justify;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #555;
+            display: none; /* Hide abstracts by default */
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+        
+        .award-item, .conf-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .year-tag {
+            color: #888;
+            font-size: 14px;
+        }
+        
+        .references {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .ref-card {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            border: 1px solid #e0e0e0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        .ref-name {
+            font-weight: 600;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+        }
+        
+        .ref-info {
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .ref-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        
+        /* Ensure all colors print */
+        h1, h2, a, .ref-name, li:before {
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+        
+        /* Alternative approach using box-shadow for better print support */
+        @media print {
+            body {
+                padding: 20px;
+            }
+            .ref-card {
+                background: #f0f0f0 !important;
+                box-shadow: inset 0 0 0 1000px #f0f0f0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            /* Force all colors to print */
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+        
+        /* Mobile responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px;
+                font-size: 14px;
+            }
+            
+            /* Stack references vertically on mobile */
+            .references {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            /* Adjust header for mobile */
+            h1 {
+                font-size: 28px;
+                letter-spacing: 1px;
+            }
+            
+            /* Make dates stack below content on mobile */
+            .education-item, .employment-item {
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            .date {
+                text-align: left;
+                color: #999;
+            }
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SOUMITRA SHUKLA</h1>
+        <div class="contact-info">
+            <a href="mailto:sshukla@hbs.edu">sshukla@hbs.edu</a> • 
+            <a href="https://soumitrashukla.github.io">soumitrashukla.github.io</a>
+        </div>
+        <div style="font-size: 14px; margin-top: 5px; font-weight: bold;">U.S. Permanent Resident</div>
+    </header>
+
+    <section>
+        <h2>Current Positions</h2>
+        <div class="employment-item">
+            <div class="left-content">
+                <div class="institution non-bold">Research Fellow, Harvard Business School</div>
+            </div>
+            <div class="date">2025 - Present</div>
+        </div>
+        <div class="employment-item">
+            <div class="left-content">
+                <div class="institution non-bold">Consultant, The Burning Glass Institute</div>
+            </div>
+            <div class="date">2025 - Present</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Other Affiliations</h2>
+        <div class="employment-item">
+            <div class="left-content">
+                <div class="institution non-bold">Affiliate, Digital Data Design Institute at Harvard</div>
+            </div>
+            <div class="date">2025 - Present</div>
+        </div>
+        <div class="employment-item">
+            <div class="left-content">
+                <div class="institution non-bold">Affiliate, Yale University</div>
+            </div>
+            <div class="date">2021 - Present</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Past Employment</h2>
+        <div class="employment-item">
+            <div class="left-content">
+                <div class="institution non-bold">Economist, Federal Reserve Board</div>
+            </div>
+            <div class="date">2021 - 2024</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="left-content">
+                <div class="institution">Yale University</div>
+                <div class="degree">Ph.D. in Economics (with Distinction)</div>
+            </div>
+            <div class="date">2015 - 2021</div>
+        </div>
+        <div class="education-item">
+            <div class="left-content">
+                <div class="institution">Yale University</div>
+                <div class="degree">M.Phil. in Economics (with Distinction)</div>
+            </div>
+            <div class="date">2015 - 2017</div>
+        </div>
+        <div class="education-item">
+            <div class="left-content">
+                <div class="institution">University of Minnesota</div>
+                <div class="degree">B.S. in Economics and Mathematics (with Distinction)</div>
+            </div>
+            <div class="date">2010 - 2015</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Doctoral Qualifying Exams</h2>
+        <p>Labor Economics (with Distinction) and Industrial Organization</p>
+    </section>
+
+    <section>
+        <h2>Research Fields</h2>
+        <p>Labor Economics, Organizational Economics, Personnel Economics</p>
+    </section>
+
+    <section>
+        <h2>Working Papers</h2>
+        <div class="paper-item">
+            <div class="paper-title">Making the Elite: Class Discrimination at Multinationals</div>
+            <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
+            <div class="abstract">
+                What drives socioeconomic disparities in elite job access, and where do these inequalities emerge? Measuring class discrimination is challenging, as status must often be inferred from subtle markers like accent, education, or networks. India's caste system provides an explicit social class measure, enabling precise identification of how status affects elite job access. Analyzing detailed screening data from over 1,000 jobs at primarily U.S. and European multinationals hiring in India, this paper provides the first systematic quantification of class bias in elite recruitment, identifying both its sources and mechanisms. Personal interviews assessing candidate "fit" drive nearly 90% of the caste earnings penalty (0.16 standard deviations). However, disadvantaged caste hires achieve 20% higher promotion rates, suggesting these disparities cannot be justified by ability differences. To formally distinguish discrimination from unobserved ability differences, I develop a theoretical framework utilizing plausibly exogenous variation in screening selectivity across jobs. The framework predicts that, absent discrimination, the promotion advantage of disadvantaged caste hires should shrink in highly selective jobs. Instead, persistently higher and stable promotion rates of disadvantaged hires across all selectivity tiers are most consistent with discrimination. These patterns persist across both client-facing and non-client-facing roles, suggesting bias rather than statistical or customer-driven motives. My findings reveal how subjective "fit" assessments can undermine both diversity and efficient talent allocation in elite hiring.
+            </div>
+        </div>
+        
+        <div class="paper-item">
+            <div class="paper-title">Interviews</div>
+            <div class="coauthors">with Jason Sockin and Elliott Ash</div>
+            <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
+            <div class="abstract">
+                Interviews allow employers to learn about workers, but do they also enable workers to learn about firms? Studying 500,000 interview reports from Glassdoor, we find candidates for high-paying jobs are more likely to reject a job offer if they believe the interview was easy. Easy interviews appear to convey poor "fit" as those who accept offers after easy interviews are two-fifths of a standard deviation less satisfied with their jobs and 10 percent less likely to remain with their employer for at least one year. Analysis of interview narratives using large language models reveals difficult interviews signal colleague ability whereas easy interviews convey a nonselective process. In a small-scale randomized field experiment, an exogenous increase in difficulty elevated perceived difficulty and boosted applicant engagement with the vacancy. Interviews offer workers a preview of match quality, highlighting a channel through which labor markets may become less efficient if firms automate hiring with AI.
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>In Progress</h2>
+        
+        <div class="paper-item">
+            <div class="paper-title">Elite Childhoods</div>
+            <div class="coauthors">with Paul Novosad, Dan Fetter, and Luke Stein</div>
+        </div>
+        
+        <div class="paper-item">
+            <div class="paper-title">Personality and Professional Pathways: Socioemotional Predictors of Success in an Elite MBA Program</div>
+            <div class="coauthors">with John Eric Humphries</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Fellowships, Honors & Awards</h2>
+        <ul>
+            <li>University Dissertation Fellowship, Yale University (2020-2021)</li>
+            <li>University Fellowship, Yale University (2015-2020)</li>
+            <li>Carl Arvid Anderson Prize Fellowship, Yale University (2019-2020)</li>
+            <li>Cowles Foundation Fellowship, Yale University (2015-2019)</li>
+            <li>Economic Growth Center Prize, Yale University (2015-2020)</li>
+            <li>Raymond Powell Prize for Teaching, Yale University (2018-2019)</li>
+            <li>Lester Page Hoole Fellow, Yale University (2017-2018)</li>
+            <li>Distinction in Labor Economics Oral Qualifying Exam, Yale University (2017)</li>
+            <li>Ella Thorp Scholarship, University of Minnesota (2014-2015)</li>
+            <li>Linda and Ted Johnson Research Fellowship, University of Minnesota (2014-2015)</li>
+            <li>Phi Beta Kappa (top 2% of class), University of Minnesota (2014)</li>
+            <li>Phi Kappa Phi (top 5% of class), University of Minnesota (2014)</li>
+            <li>Talle Family Scholarship, University of Minnesota (2013-2014)</li>
+            <li>Stockman Scholarship, University of Minnesota (2012-2013)</li>
+            <li>Undergraduate Research Opportunities Award, University of Minnesota (2012)</li>
+            <li>Meritorious Winner: Mathematical Contest in Modeling, University of Minnesota (2012)</li>
+            <li>University Honors Program, University of Minnesota (2011)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Research Grants</h2>
+        <ul>
+            <li>Cowles Foundation Research Grant (2017-2021)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Invited Conferences and Talks</h2>
+        <ul>
+            <li><strong>2026:</strong> Berkeley Culture Connect, NYU Political Economy Seminar</li>
+            <li><strong>2025:</strong> Massachusetts Institute of Technology, Georgetown, Emory, Brigham Young University, NBER Race and Stratification Conference, NBER Organizational Economics (Spring), NBER Economics of Culture and Institutions, NBER Summer Institute (Personnel Economics), NBER Summer Institute (Labor Studies), University of Utah, Massachusetts Institute of Technology Organizational Economics Seminar, AI in Social Science Conference (Chicago Booth), NBER Organizational Economics (Fall)</li>
+            <li><strong>2024:</strong> System Equitable Growth Conference, Society for Institutional and Organizational Economics (University of Chicago), NBER Summer Institute (Personnel Economics), People and Organizations Conference (Wharton), NBER Economics of Mobility Conference, NBER Organizational Economics</li>
+            <li><strong>2023:</strong> Discrimination in the 21st Century: Fostering Conversations Across Fields (Chicago Booth and the Becker-Friedman Institute for Economics), NBER Economics of Mobility Conference</li>
+            <li><strong>2022:</strong> Discrimination and Disparities Seminar, Discrimination in the 21st Century: Fostering Conversations Across Fields (Chicago Booth and the Becker-Friedman Institute for Economics)</li>
+            <li><strong>2021:</strong> Wharton (Business Economics and Public Policy), Penn State (Economics of Education Seminar)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Journal Refereeing & Grant Reviews</h2>
+        <p>Quarterly Journal of Economics, Journal of Political Economy, JPE Microeconomics, Economics Letters, National Science Foundation, American Economic Journal: Applied Economics</p>
+    </section>
+
+    <section>
+        <h2>Programming Skills</h2>
+        <p>R (advanced), Julia (advanced), STATA (intermediate), Python (beginner)</p>
+    </section>
+
+    <section>
+        <h2>References</h2>
+        <div class="references">
+            <div class="ref-card">
+                <div class="ref-name">Prof. Joseph G. Altonji</div>
+                <div class="ref-info">
+                    Yale University<br>
+                    Department of Economics<br>
+                    <a href="mailto:joseph.altonji@yale.edu">joseph.altonji@yale.edu</a><br>
+                    +1 (203) 687 6077
+                </div>
+            </div>
+            <div class="ref-card">
+                <div class="ref-name">Prof. Costas Meghir</div>
+                <div class="ref-info">
+                    Yale University<br>
+                    Department of Economics<br>
+                    <a href="mailto:c.meghir@yale.edu">c.meghir@yale.edu</a><br>
+                    +1 (646) 532 9154
+                </div>
+            </div>
+            <div class="ref-card">
+                <div class="ref-name">Prof. John Eric Humphries</div>
+                <div class="ref-info">
+                    Yale University<br>
+                    Department of Economics<br>
+                    <a href="mailto:johneric.humphries@yale.edu">johneric.humphries@yale.edu</a><br>
+                    +1 (773) 633 8483
+                </div>
+            </div>
+            <div class="ref-card">
+                <div class="ref-name">Dr. Jasper Hoek</div>
+                <div class="ref-info">
+                    Federal Reserve Board<br>
+                    Deputy Associate Director<br>
+                    <a href="mailto:jasper.hoek@frb.gov">jasper.hoek@frb.gov</a><br>
+                    +1 (202) 714 0605
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        function toggleAbstract(button) {
+            const abstract = button.nextElementSibling;
+            if (abstract.style.display === 'none' || abstract.style.display === '') {
+                abstract.style.display = 'block';
+                button.textContent = 'Hide Abstract';
+            } else {
+                abstract.style.display = 'none';
+                button.textContent = 'Show Abstract';
+            }
+        }
+    </script>
+</body>
+</html>

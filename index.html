@@ -1,119 +1,86 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
-
 <html lang="en">
-
 <head>
-  <title>Soumitra Shukla</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="media-query.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <style>
-    body {
-      margin: 0px;
-      font-size: 16px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-    }
-
-    .container-fluid  {
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumitra Shukla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-          data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">Soumitra Shukla</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a a target="_blank" href="Soumitra_Shukla_CV.pdf">CV</a></li>
-        </ul>
-      </div>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <nav>
+            <a href="index.html" class="logo">Soumitra Shukla</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="Research_Statement_Latest.pdf" target="_blank">Research Statement</a></li>
+                <li><a href="Soumitra_Shukla_CV.html" target="_blank">CV</a></li>
+                <li><a href="talks.html">Invited Conferences and Talks</a></li>
+                <li><a href="discussions.html">Discussions</a></li>
+                <li><a href="rafa.html">Rafa</a></li>
+                <li><a href="mentors.html">Mentors</a></li>
+            </ul>
+        </nav>
     </div>
-  </nav>
 
-  <!-- Page Content -->
-  <div class="container-fluid">
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="page-content">
+            <div class="hero">
+                <div class="profile-section">
+                    <img src="prof_pic_new2.jpg" alt="Soumitra Shukla" class="profile-img">
+                </div>
+                <div class="content-section">
+                    <h1>Soumitra Shukla</h1>
+                    <p class="subtitle">Research Fellow, Harvard Business School</p>
+                    
+                    <div class="bio">
+                        <p>I am thrilled to be a Research Fellow at <a href="https://www.hbs.edu" target="_blank">Harvard Business School</a>, working at the Digital Reskilling Lab.
+                        I simultaneously work as a consultant at <a href="https://www.burningglassinstitute.org/" target="_blank">The Burning Glass Institute</a>, the leading non-profit organization shaping the dialogue on 
+                        the future of work.</p>
+                        <br>
 
-    <div class="row">
+                        <p>I am particularly interested in studying how organizations can 
+                        better align talent management practices with labor market outcomes, ensuring greater equity in access to opportunities and promoting 
+                        upward mobility for underrepresented groups.</p> 
+                        <br>
 
-      <!-- Entries Column -->
-      <div class="col-md-3 col-sm-12">
+                        <p>At HBS, I am collaborating with <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=541712" target="_blank">Raffaella Sadun</a> and <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1063486" target="_blank">Jorge Tamayo</a>, who co-lead the Digital Reskilling Lab. Together, we are studying the organizational processes of new technology adoption, including AI implementation and transformation in the workplace, building on the lab's core mission of studying large-scale digital training investments in private and public sector organizations.</p>
+                        <br>
 
-        <!-- Main Image -->
-        <img class="img-responsive" src="prof_pic.jpeg" height="40" alt=""><br>
+                        <p>My work has been highlighted by prominent figures such as 
+                        <a href="https://x.com/sapinker/status/1896735344193830919" target="_blank">Steven Pinker</a>,
+                        <a href="https://press.princeton.edu/books/hardcover/9780691263632/breaking-the-mold" target="_blank">Raghuram Rajan</a>, 
+and featured in popular outlets like <a href="https://marginalrevolution.com/marginalrevolution/2024/08/friday-assorted-links-482.html" target="_blank">Marginal Revolution</a> and <a href="https://www.ggd.world/p/big-questions-big-data" target="_blank">The Great Gender Divergence</a>
+                    </div>
 
-      </div>
-
-      <!-- Entries Column -->
-      <div class="col-md-6">
-
-        <!-- Main Image -->
-
-        <div style="margin-top:3%; text-align:justify; margin:3px;">
-          <p>I am a PhD Candidate in Economics at Yale University.
-            My research interests are in Labor Economics, Economics of Education, and Applied Microeconomics.
-          </p><br>
-
-          <p>I also enjoy reading in coffee shops, playing tennis, pickleball, and am beginning to learn paddle boarding.
-          </p><br>
-
-          <p>I will be available for interviews at the ASSA 2021 Virtual Annual Meeting.</p><br>
-
-          <p class="col-md-12 col-sm-12 moblie_font" style="text-align:left; padding-left: 0px">Email: <a href="mailto:soumitra.shukla@yale.edu">soumitra.shukla@yale.edu</a></p>
-
-
-      </div>
-      </div>
-
-      <!-- Contact Info on the Sidebar -->
-      <!--<div class="col-md-4">
-        <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Soumitra Shukla</b></div><br>
-        <p>Department of Economics<br>
-          Yale University<br>
-          28 Hillhouse Ave<br>
-          New Haven<br>
-          CT - 06511<br>
-        </p>
-      </div>-->
-
-
-      <!-- Links on the Sidebar -->
-      <!--<div class="col-md-4" style="margin-top:2%">
-        <dd><a href="https://www.linkedin.com/in/soumitra-shukla/">LinkedIn</a></dd>
-        <dd><a href="https://github.com/bashonubuntu">Github</a></dd>
-      </div>-->
+                    <div class="contact-info">
+                        <h3>Contact</h3>
+                        <div class="contact-item">
+                          <span>✉️</span>
+                            <a href="mailto:sshukla@hbs.edu">sshukla@hbs.edu</a>
+                        </div>
+                        <div class="contact-item">
+                          <span>𝕏</span>
+                            <a href="https://x.com/soumitrashukla9" target="_blank">@soumitrashukla9</a>
+                        </div>
+                        <div class="contact-item">
+                            <span>☁️</span>
+                            <a href="https://bsky.app/profile/soumitrashukla.bsky.social" target="_blank">@soumitrashukla.bsky.social</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
