@@ -272,6 +272,27 @@ nav {
     text-decoration: none;
 }
 
+/* Co-authors styling */
+.coauthors {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-light);
+    margin-left: 0.5rem;
+}
+
+.coauthors a {
+    color: var(--text-light);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.coauthors a:hover {
+    color: var(--harvard-crimson);
+    border-bottom-color: var(--harvard-crimson);
+}
+
 .paper-meta {
     color: var(--text-light);
     font-size: 0.9rem;
