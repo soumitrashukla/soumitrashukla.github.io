@@ -248,10 +248,18 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Smaller margin for papers in In Progress section */
-.section-title + .paper-item,
-.paper-item + .paper-item {
-    margin-bottom: 10px;
+/* Denser layout for In Progress titles */
+.in-progress-list .paper-item {
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.in-progress-list .paper-item:last-child {
+    margin-bottom: 0;
+}
+
+.in-progress-list .paper-title {
+    margin-bottom: 0.25rem;
 }
 
 .paper-item:hover {
@@ -437,6 +445,16 @@ nav {
     .paper-item {
         padding: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+
+    .in-progress-list .paper-item {
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .in-progress-list .paper-title {
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
     }
 
     .paper-title {
