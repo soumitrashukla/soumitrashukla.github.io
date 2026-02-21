@@ -457,6 +457,12 @@ nav {
         margin-bottom: 0.2rem;
     }
 
+    .in-progress-list .coauthors {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.15rem;
+    }
+
     .paper-title {
         font-size: 1.1rem;
     }
