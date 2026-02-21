@@ -248,18 +248,36 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* Denser layout for In Progress titles */
-.in-progress-list .paper-item {
-    padding: 1.1rem 1.25rem;
-    margin-bottom: 0.75rem;
+/* In Progress list (no card blocks) */
+.in-progress-list {
+    margin-bottom: 2rem;
 }
 
-.in-progress-list .paper-item:last-child {
+.in-progress-item {
+    margin-bottom: 0.9rem;
+}
+
+.in-progress-item:last-child {
     margin-bottom: 0;
 }
 
-.in-progress-list .paper-title {
-    margin-bottom: 0.25rem;
+.in-progress-title {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.35rem;
+    color: var(--harvard-crimson);
+    font-weight: 600;
+    margin: 0;
+}
+
+.in-progress-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.in-progress-item .coauthors {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.15rem;
 }
 
 .paper-item:hover {
@@ -447,20 +465,17 @@ nav {
         margin-bottom: 1.5rem;
     }
 
-    .in-progress-list .paper-item {
-        padding: 0.9rem 1rem;
-        margin-bottom: 0.6rem;
+    .in-progress-item {
+        margin-bottom: 0.7rem;
     }
 
-    .in-progress-list .paper-title {
-        font-size: 1rem;
-        margin-bottom: 0.2rem;
+    .in-progress-title {
+        font-size: 1.1rem;
+        line-height: 1.45;
     }
 
-    .in-progress-list .coauthors {
-        display: block;
-        margin-left: 0;
-        margin-top: 0.15rem;
+    .in-progress-item .coauthors {
+        margin-top: 0.1rem;
     }
 
     .paper-title {
