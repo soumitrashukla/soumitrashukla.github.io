@@ -248,8 +248,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* In Progress list (no card blocks) */
+/* In Progress list inside a single card block */
 .in-progress-list {
+    padding: 1.4rem 1.6rem;
     margin-bottom: 2rem;
 }
 
@@ -463,6 +464,10 @@ nav {
     .paper-item {
         padding: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+
+    .in-progress-list {
+        padding: 1.1rem 1.2rem;
     }
 
     .in-progress-item {
