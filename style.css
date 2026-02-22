@@ -254,6 +254,15 @@ nav {
     margin-bottom: 2rem;
 }
 
+/* Essays card should match the tighter in-progress spacing */
+.essay-item {
+    padding: 1.4rem 1.6rem;
+}
+
+.essay-item .paper-title {
+    margin-bottom: 0.2rem;
+}
+
 .in-progress-item {
     margin-bottom: 0.9rem;
 }
@@ -464,6 +473,14 @@ nav {
     .paper-item {
         padding: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+
+    .essay-item {
+        padding: 1.1rem 1.2rem;
+    }
+
+    .essay-item .paper-title {
+        margin-bottom: 0;
     }
 
     .in-progress-list {
