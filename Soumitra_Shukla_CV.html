@@ -151,11 +151,33 @@
             color: #333;
             margin-bottom: 5px;
         }
+
+        .paper-title a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .paper-title a:hover {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
         
         .coauthors {
             color: #666;
             font-size: 14px;
             font-style: italic;
+        }
+
+        .coauthors a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        .coauthors a:hover {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
         }
         
         .abstract {
@@ -409,6 +431,17 @@
         <div class="paper-item">
             <div class="paper-title">The Digital Gatekeeper: Recruiting with LLMs</div>
             <div class="coauthors">with Mariya Pominova and Sofia Valdivia</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Essays and other writings</h2>
+
+        <div class="paper-item">
+            <div class="paper-title">
+                <a href="https://aleximas.substack.com/p/who-uses-ai-and-how" target="_blank">Who Uses AI (and How?): Tracking the Evidence on AI Adoption</a>
+            </div>
+            <div class="coauthors">with <a href="https://www.chicagobooth.edu/faculty/directory/i/alex-imas" target="_blank">Alex Imas</a></div>
         </div>
     </section>
 
