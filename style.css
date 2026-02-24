@@ -34,6 +34,8 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 /* Navigation */
@@ -491,17 +493,17 @@ nav {
         margin-bottom: 0.7rem;
     }
 
-    .in-progress-title {
+    .in-progress-title,
+    .paper-title {
         font-size: 1.1rem;
-        line-height: 1.45;
+    }
+
+    .in-progress-title {
+        line-height: 1.35;
     }
 
     .in-progress-item .coauthors {
         margin-top: 0.1rem;
-    }
-
-    .paper-title {
-        font-size: 1.1rem;
     }
 
     .paper-meta {
