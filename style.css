@@ -273,11 +273,15 @@ nav {
     margin-bottom: 0;
 }
 
-.in-progress-title {
+.in-progress-title,
+.paper-title {
     font-family: 'Crimson Text', serif;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     color: var(--harvard-crimson);
     font-weight: 600;
+}
+
+.in-progress-title {
     margin: 0;
 }
 
@@ -298,11 +302,7 @@ nav {
 }
 
 .paper-title {
-    font-family: 'Crimson Text', serif;
-    font-size: 1.4rem;
-    color: var(--harvard-crimson);
     margin-bottom: 1rem;
-    font-weight: 600;
 }
 
 .paper-title a {
