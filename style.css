@@ -74,7 +74,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1.15rem;
     align-items: center;
 }
 
@@ -82,7 +82,7 @@ nav {
     color: var(--off-white);
     text-decoration: none;
     font-weight: 400;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     position: relative;
     padding: 0.5rem 0;
     transition: all 0.3s ease;
