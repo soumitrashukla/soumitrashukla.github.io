@@ -13,6 +13,10 @@
 		width: 30%;
 	}
 
+  p {
+    text-align: justify;
+  }
+
 }
 
 /*
@@ -33,6 +37,10 @@
     margin-right: 10%;
   }
 
+  p {
+    text-align: justify;
+  }
+
 }
 
 /*
@@ -41,6 +49,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  p {
+    text-align: justify;
+  }
 
 }
 
@@ -58,6 +70,10 @@
     margin-right: 10%;*/
   }
 
+  p {
+    text-align: justify;
+  }
+
 }
 
 /*
@@ -68,26 +84,31 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
   p {
+    /*text-align: justify;*/
     text-align: justify;
     width: 100%;
     width: 100;
     margin: 0 auto;
     padding-right: 8%;
+    font-size: 11px;
   }
 
   .paper {
 
+    /*text-align: justify;*/
     text-align: justify;
     width: 100%;
     width: 100;
     margin: 0 auto;
     padding-right: 8%;
+    font-size: 11px;
   }
 
   /*.moblie_font
   {
     font-size: 13px;
   }*/
+
 
 }
 
@@ -99,21 +120,32 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
 p {
+  /*text-align: justify;*/
   text-align: justify;
   width: 100%;
   width: 100;
   margin: 0 auto;
   padding-right: 8%;
+  font-size: 11px;
 }
 
 .paper {
 
+  /*text-align: justify;*/
   text-align: justify;
   width: 100%;
   width: 100;
   margin: 0 auto;
   padding-right: 8%;
+  font-size: 11px;
 }
+
+.indentclass {
+
+  margin-left: 8px !important;
+
+}
+
 
 /*.moblie_font
 {

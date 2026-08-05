@@ -1,0 +1,97 @@
+# Stata data files
+*.dta
+*.dta13
+*.dta12
+
+# R data files
+*.RData
+*.Rda
+*.rda
+*.rds
+
+# CSV data files (uncomment if needed)
+# *.csv
+
+# Excel files (uncomment if needed)
+# *.xlsx
+# *.xls
+
+# SPSS/SAS files
+*.sav
+*.sas7bdat
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Log files
+*.log
+logs/
+
+# Private/sensitive directories
+private/
+confidential/
+data/
+raw_data/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+dist/
+build/
+out/
+
+# Cache directories
+.cache/
+.sass-cache/
+
+# Personal notes (uncomment if needed)
+# notes/
+# *.notes
