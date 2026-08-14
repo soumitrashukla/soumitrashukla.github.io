@@ -416,6 +416,44 @@ nav {
     margin: 0;
 }
 
+.research-award {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.35rem;
+    padding: 0.28rem 0.65rem;
+    border-left: 3px solid var(--brand-accent);
+    border-radius: 0 4px 4px 0;
+    background: rgba(168, 123, 62, 0.09);
+    color: var(--bgi-ink-deep);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.35;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.research-award::before {
+    content: 'Award';
+    color: var(--brand-accent);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.research-award:hover,
+.research-award:focus-visible {
+    background: rgba(168, 123, 62, 0.16);
+    color: var(--brand-accent);
+}
+
+.research-award + .coauthors {
+    margin-top: 0.25rem;
+}
+
 .hiring-tech-title .title-mobile {
     display: none;
 }
@@ -665,6 +703,12 @@ nav {
 
     .in-progress-title {
         line-height: 1.35;
+    }
+
+    .research-award {
+        gap: 0.4rem;
+        padding: 0.24rem 0.55rem;
+        font-size: 0.73rem;
     }
 
     .hiring-tech-title .title-full {
