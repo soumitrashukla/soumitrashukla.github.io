@@ -730,6 +730,14 @@ nav {
         font-size: 0.73rem;
     }
 
+    .research-presentation {
+        display: none;
+    }
+
+    .paper-title.paper-title-with-highlight {
+        margin-bottom: 1rem;
+    }
+
     .hiring-tech-title .title-full {
         display: none;
     }
