@@ -2,80 +2,75 @@
 %‚„œ”
 1 0 obj
 <<
-/Producer (pypdf)
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 2 0 obj
 <<
 /Type /Pages
 /Count 3
-/Kids [ 4 0 R 46 0 R 61 0 R ]
+/Kids [ 3 0 R 45 0 R 60 0 R ]
 >>
 endobj
 3 0 obj
-<<
-/Type /Catalog
-/Pages 2 0 R
->>
-endobj
-4 0 obj
 <<
 /Type /Page
 /MediaBox [ 0 0 612 792 ]
 /Rotate 0
 /Resources <<
 /Font <<
-/F1 5 0 R
-/F1-0 6 0 R
-/F2 7 0 R
-/F2-0 10 0 R
-/F2-1 13 0 R
-/F3 16 0 R
-/F3-0 19 0 R
-/F3-1 22 0 R
+/F1 4 0 R
+/F1-0 5 0 R
+/F2 6 0 R
+/F2-0 9 0 R
+/F2-1 12 0 R
+/F3 15 0 R
+/F3-0 18 0 R
+/F3-1 21 0 R
 >>
 /XObject <<
-/Fm1 25 0 R
+/Fm1 24 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
-/Contents 38 0 R
-/Annots [ 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R ]
+/Contents 37 0 R
+/Annots [ 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R ]
 /Parent 2 0 R
 >>
 endobj
-5 0 obj
+4 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
 /Subtype /Type1
 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
 >>
 endobj
 6 0 obj
 <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
->>
-endobj
-7 0 obj
-<<
-/Type /Font
-/Subtype /Type1
 /BaseFont /TeXGyreTermes-Bold
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 8 0 R
+/FontDescriptor 7 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 350 500 350 333 500 500 1000 500 500 333 1000 556 333 1000 350 667 350 350 333 333 500 500 350 500 1000 333 1000 389 333 722 350 444 722 250 333 500 500 500 500 220 500 333 747 300 500 570 333 747 333 400 570 0 0 333 556 540 250 333 0 330 500 750 750 750 500 722 722 722 722 722 722 1000 722 667 667 667 667 389 389 389 389 722 722 778 778 778 778 778 570 778 722 722 722 722 722 611 556 500 500 500 500 500 500 722 444 444 444 444 444 278 278 278 278 500 556 500 500 500 500 500 570 500 556 556 556 556 500 556 500 ]
 >>
 endobj
-8 0 obj
+7 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 676
@@ -83,14 +78,14 @@ endobj
 /Descent -205
 /Flags 34
 /FontBBox [ -586 -341 1305 1118 ]
-/FontFile 9 0 R
+/FontFile 8 0 R
 /FontName /TeXGyreTermes-Bold
 /ItalicAngle 0
 /StemV 0
 /XHeight 461
 >>
 endobj
-9 0 obj
+8 0 obj
 <<
 /Length1 6135
 /Length2 125077
@@ -839,20 +834,20 @@ cleartomark
 
 endstream
 endobj
-10 0 obj
+9 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 11 0 R
+/FontDescriptor 10 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
 >>
 endobj
-11 0 obj
+10 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 662
@@ -860,14 +855,14 @@ endobj
 /Descent -217
 /Flags 34
 /FontBBox [ -526 -281 1306 1055 ]
-/FontFile 12 0 R
+/FontFile 11 0 R
 /FontName /TeXGyreTermesX-Regular
 /ItalicAngle 0
 /StemV 0
 /XHeight 450
 >>
 endobj
-12 0 obj
+11 0 obj
 <<
 /Length1 1160
 /Length2 285104
@@ -2052,12 +2047,12 @@ cleartomark
 
 endstream
 endobj
-13 0 obj
+12 0 obj
 <<
 /BaseFont /TeXGyreTermes-Bold
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 14 0 R
+/FontDescriptor 13 0 R
 /LastChar 255
 /Name /F2
 /Subtype /Type1
@@ -2065,14 +2060,14 @@ endobj
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 350 500 350 333 500 500 1000 500 500 333 1000 556 333 1000 350 667 350 350 333 333 500 500 350 500 1000 333 1000 389 333 722 350 444 722 250 333 500 500 500 500 220 500 333 747 300 500 570 333 747 333 400 570 0 0 333 556 540 250 333 0 330 500 750 750 750 500 722 722 722 722 722 722 1000 722 667 667 667 667 389 389 389 389 722 722 778 778 778 778 778 570 778 722 722 722 722 722 611 556 500 500 500 500 500 500 722 444 444 444 444 444 278 278 278 278 500 556 500 500 500 500 500 570 500 556 556 556 556 500 556 500 ]
 >>
 endobj
-14 0 obj
+13 0 obj
 <<
 /Ascent 676
 /CapHeight 676
 /Descent -205
 /Flags 34
 /FontBBox [ -586 -341 1305 1118 ]
-/FontFile 15 0 R
+/FontFile 14 0 R
 /FontName /TeXGyreTermes-Bold
 /ItalicAngle 0
 /StemV 0
@@ -2080,7 +2075,7 @@ endobj
 /XHeight 461
 >>
 endobj
-15 0 obj
+14 0 obj
 <<
 /Length1 6135
 /Length2 125077
@@ -2829,20 +2824,20 @@ cleartomark
 
 endstream
 endobj
-16 0 obj
+15 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermes-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 17 0 R
+/FontDescriptor 16 0 R
 /LastChar 255
 /Name /F3
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 333 400 564 0 0 333 500 453 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
 >>
 endobj
-17 0 obj
+16 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 683
@@ -2850,14 +2845,14 @@ endobj
 /Descent -217
 /Flags 34
 /FontBBox [ -526 -281 1306 1055 ]
-/FontFile 18 0 R
+/FontFile 17 0 R
 /FontName /TeXGyreTermes-Regular
 /ItalicAngle 0
 /StemV 0
 /XHeight 450
 >>
 endobj
-18 0 obj
+17 0 obj
 <<
 /Length1 6153
 /Length2 126585
@@ -3650,20 +3645,20 @@ cleartomark
 
 endstream
 endobj
-19 0 obj
+18 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Bold
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 20 0 R
+/FontDescriptor 19 0 R
 /LastChar 255
 /Name /F3
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 350 500 350 333 500 500 1000 0 0 333 1000 556 333 1000 350 667 350 350 333 333 500 500 350 500 1000 333 1000 389 333 722 350 444 722 250 333 500 500 500 500 220 0 333 747 300 500 570 333 747 333 400 570 0 0 333 0 0 250 333 0 330 500 750 750 750 500 722 722 722 722 722 722 1000 722 667 667 667 667 389 389 389 389 722 722 778 778 778 778 778 570 778 722 722 722 722 722 611 556 500 500 500 500 500 500 722 444 444 444 444 444 278 278 278 278 500 556 500 500 500 500 500 570 500 556 556 556 556 500 556 500 ]
 >>
 endobj
-20 0 obj
+19 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 676
@@ -3671,14 +3666,14 @@ endobj
 /Descent -205
 /Flags 34
 /FontBBox [ -586 -341 1305 1118 ]
-/FontFile 21 0 R
+/FontFile 20 0 R
 /FontName /TeXGyreTermesX-Bold
 /ItalicAngle 0
 /StemV 0
 /XHeight 461
 >>
 endobj
-21 0 obj
+20 0 obj
 <<
 /Length1 1147
 /Length2 253552
@@ -4709,12 +4704,12 @@ cleartomark
 
 endstream
 endobj
-22 0 obj
+21 0 obj
 <<
 /BaseFont /TeXGyreTermes-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 23 0 R
+/FontDescriptor 22 0 R
 /LastChar 255
 /Name /F3
 /Subtype /Type1
@@ -4722,14 +4717,14 @@ endobj
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 500 500 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 500 333 760 276 500 564 333 760 333 400 564 0 0 333 500 453 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
 >>
 endobj
-23 0 obj
+22 0 obj
 <<
 /Ascent 683
 /CapHeight 662
 /Descent -217
 /Flags 34
 /FontBBox [ -526 -281 1306 1055 ]
-/FontFile 24 0 R
+/FontFile 23 0 R
 /FontName /TeXGyreTermes-Regular
 /ItalicAngle 0
 /StemV 0
@@ -4737,7 +4732,7 @@ endobj
 /XHeight 450
 >>
 endobj
-24 0 obj
+23 0 obj
 <<
 /Length1 6153
 /Length2 126585
@@ -5530,7 +5525,7 @@ cleartomark
 
 endstream
 endobj
-25 0 obj
+24 0 obj
 <<
 /Type /XObject
 /Subtype /Form
@@ -5538,7 +5533,7 @@ endobj
 /Matrix [ 1 0 0 1 0 0 ]
 /Resources <<
 /XObject <<
-/Fm1 26 0 R
+/Fm1 25 0 R
 >>
 >>
 /Length 7
@@ -5547,7 +5542,7 @@ stream
 /Fm1 Do
 endstream
 endobj
-26 0 obj
+25 0 obj
 <<
 /Type /XObject
 /Subtype /Form
@@ -5555,8 +5550,8 @@ endobj
 /Matrix [ 1 0 0 1 0 0 ]
 /Resources <<
 /Font <<
-/F39 27 0 R
-/F38 33 0 R
+/F39 26 0 R
+/F38 32 0 R
 /F_UPDATED_TITLE <<
 /Type /Font
 /Subtype /Type1
@@ -5577,20 +5572,20 @@ stream
 q 0 g 0 G BT/F39 10.9091 Tf 72 509.45503 Td[(Education:)]TJ 0 G/F38 10.9091 Tf 28.8 -15.268 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(Ph.D.)-250.00003(in)-250.00003(Economics)-250.00003(\(with)-250.00003(Dis)15(tinction\),)-250.00003(Y)100(ale)-250.00003(U)30(niv)35(ersity)-250.00003(\(2015)-250.00003(-)-250.00003(2021\))]TJ 0 G 0 -13.549 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(M.Phil.)-361.00007(in)-250.00003(Economics)-250.00003(\(with)-250.00003(Dis)15(tinction\),)-250.00003(Y)100(ale)-250.00003(U)30(niv)35(ersity)-250.00003(\(2015)-250.00003(-)-250.00003(2017\))]TJ 0 G 0 -13.549 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(B.S.)-250.00003(in)-250.00003(Economics)-250.00003(and)-250.00003(Mathematics)-250.00003(\(with)-250.00003(Dis)15(tinction\),)-250.00003(U)30(niv)35(ersity)-250.00003(of)-250.00003(Minnesota)-250.00003(\(2010)-250.00003(-)-250.00003(2015\))]TJ 0 G/F39 10.9091 Tf -28.8 -19.686 Td 0 G 0 G[(Doctoral)-250.00003(Qualifying)-250.00003(Exams:)]TJ 0 G/F38 10.9091 Tf 28.8 -15.267 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(Labor)-250.00003(Economics)-250.00003(\(with)-250.00003(Dis)15(tinction\))-250.00003(and)-250.00003(Indus)15(tr)-20.000002(ial)-250.00003(Or)15(g)20.000002(anization)]TJ 0 G/F39 10.9091 Tf -28.8 -19.686 Td 0 G 0 G 0 G 0 G[(R)20.000002(esear)15(c)15(h)-250.00003(Fields:)]TJ 0 G/F38 10.9091 Tf 28.8 -15.267 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(Labor)-250.00003(Economics,)-250.00003(Or)15(g)20.000002(anizational)-250.00003(Economics,)-250.00003(AI)-250.00003(and)-250.00003(the)-250.00003(F)10.000001(uture)-250.00003(of)-250.00003(W)75(ork)]TJ 0 G/F39 10.9091 Tf -28.8 -19.686 Td 0 G 0 G 0 G 0 G[(W)70(or)15(king)-250.00003(P)20.000002(apers:)]TJ 0 0 .80392 rg 0 0 .80392 RG/F38 10.9091 Tf 28.8 -15.267 Td[(Making)-250.00003(the)-250.00003(Elite:)-361.00007(Cas)15(te,)-250.00003(Class,)-250.00003(and)-250.00003(Cultural)-250.00003(Capital)-250.00003(in)-250.00003(Multinational)-250.00003(Hir)-20.000002(ing)]TJ 0 -16.495 Td[(Inter)-20.000002(vie)30(w)25(s)]TJ 0 g 0 G 0 G 0 G 0 G 0 G 0 G 0 G[-250.00003(\(with)-250.00003(Jason)-250.00003(Soc)20.000002(kin)-250.00003(and)-250.00003(Elliott)-250.00003(Ash\))]TJ 0 0 .80392 rg 0 0 .80392 RG 0 -16.494 Td[(Pyramids,)-285(Diamonds,)-285(and)-278.00004(Oscillations:)-416(AI)-278.00004(and)-278.00004(the)-278.00004(S)20.000002(tr)-20.000002(ucture)-278.00004(of)-278.00004(Inter)-20.000002(nal)-277(Labor)-278.00004(Mark)20.000002(ets)]TJ 0 g 0 G 0 G[-278.00004(\(with)-278.00004(Guido)]TJ 0 G 0 -13.55 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(Fr)-20.000002(iebel,)-250.00003(Y)100(ao)-250.00003(Huang,)-250.00003(Jin)-250.00003(Li,)-250.00003(and)-250.00003(Andre)30(w)-250.00003(Zhang\))]TJ 0 G/F39 10.9091 Tf -28.8 -19.685 Td 0 G 0 G 0 G[(In)-250.00003(Pr)15(ogr)10.000001(ess:)]TJ 0 G/F_UPDATED_TITLE 10.9091 Tf 28.8 -15.267 Td[(The Childhood Socioeconomic Circumstances of U.S. Elites from 1750 to 2025 \(with Paul Novosad,)]TJ 0 G 0 -16.495 Td[(Dan Fetter, and Luke Stein\))]TJ 0 G/F38 10.9091 Tf 0 -16.495 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(The)-250.00003(T)75(ask)-250.00003(and)-250.00003(Skill)-250.00003(Content)-250.00003(of)-250.00003(Jobs)-250.00003(\(with)-250.00003(P)25(e)30(yman)-250.00003(Shahidi\))]TJ 0 G 0 -16.495 Td 0 G 0 G 0 G 0 G 0 G 0 G 0 G[(T)85(ec)15(hnology)-250.00003(Bottlenec)20.000002(ks)-250.00003(\(with)-250.00003(Anders)-250.00003(Humlum\))]TJ 0 G/F_AUTOMATION 10.9091 Tf 0 -16.494 Td[(Automation Speed as Equilibrium Selection \(with Alex Imas and the Google DeepMind team\))]TJ 0 G/F_UPDATED_TITLE 10.9091 Tf 0 -16.495 Td[(Generative AI and the Structure of Scientific Creativity \(with Prashant Garg\))]TJ 0 G/F38 10.9091 Tf 202.473 -156.153 Td[(1)]TJ ET Q q 1 1 1 rg 1 1 1 RG 0 556 612 236 re B Q
 endstream
 endobj
-27 0 obj
+26 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /LTNTSQ+TeXGyreTermesX-Bold
-/FontDescriptor 28 0 R
+/FontDescriptor 27 0 R
 /FirstChar 30
 /LastChar 121
-/Widths 30 0 R
-/Encoding 31 0 R
-/ToUnicode 32 0 R
+/Widths 29 0 R
+/Encoding 30 0 R
+/ToUnicode 31 0 R
 >>
 endobj
-28 0 obj
+27 0 obj
 <<
 /Type /FontDescriptor
 /FontName /LTNTSQ+TeXGyreTermesX-Bold
@@ -5603,10 +5598,10 @@ endobj
 /StemV 139
 /XHeight 461
 /CharSet (\057A\057C\057D\057E\057F\057G\057H\057I\057J\057O\057P\057Q\057R\057S\057T\057W\057a\057asterisk\057c\057colon\057comma\057d\057e\057f\057ffi\057five\057four\057g\057h\057i\057k\057l\057m\057n\057o\057one\057p\057r\057s\057six\057t\057three\057two\057u\057v\057w\057x\057y\057zero)
-/FontFile 29 0 R
+/FontFile 28 0 R
 >>
 endobj
-29 0 obj
+28 0 obj
 <<
 /Length1 1150
 /Length2 37830
@@ -5769,16 +5764,16 @@ NÑ5ƒÌ5Ò˙qÒ≥\ÍE;4tè¨µòX≥rØ:îÃ`ÓÅ∂pTt`£}‚yJd=_∫ÆõÀËÊ%µ°mŒK¨Ì`` ˜∂‘8pŒŒà∫±
 ^3§'d”Kq®8Ù∏©¬Ÿdi¥Kéˇ@égéÊpJ†æÉ/ÓÊéÕ«gŒ;∞óT/÷m¥vy˝ﬂ_‰†d¸1¥`—ª+’™ “ÕWny¬˘ÑL˙¯fcú*Q√ÆΩÛﬁ.HÕy6†Ò«}l´a•πe⁄∑≈»GN¡œ*‰¥ÕÛ?GuúQÜxqÅ¸µd,‡ $Óƒf	≥¸%ªúïmÈõƒ;˘âd#ç÷¿‡ÅÚ^˘‡a»Ü«¡‚$MªÑW∏_(æruÉ.˚K=Î∞xRë∏ ¯ï'¥A0≠6>NÏ…Ù±Å–ÕÛóª©¸G©ÿvò[$¸T#~dSAJÈñ‘◊‡6tG9ó3“P»ˆs§*WNÚµŒ+›õ£8…Í˛u≠ú∫È∞ñc`t-»áR∫ íæ€t-i√X2%Í#Ω€5;Ê˘(€®>DmW;QÉIHÕñ7í
 endstream
 endobj
-30 0 obj
+29 0 obj
 [ 833 833 500 333 555 500 500 1000 833 333 333 333 500 570 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 ]
 endobj
-31 0 obj
+30 0 obj
 <<
 /Type /Encoding
 /Differences [ 16 /quotedblleft /quotedblright 27 /ff /fi 30 /ffi 37 /percent 40 /parenleft /parenright /asterisk 44 /comma /hyphen /period 48 /zero /one /two /three /four /five /six /seven /eight /nine /colon 63 /question /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R /S /T /U /V /W 89 /Y /Z 97 /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z ]
 >>
 endobj
-32 0 obj
+31 0 obj
 <<
 /Filter /FlateDecode
 /Length 871
@@ -5791,20 +5786,20 @@ gúkÖ3xZ·L·å›≠pF~+úë”
 gÏnÖ3∏Y·LÛÖ3Ú[·åúN8„\'ú·w¬~'úë«	gÍŒÿ›	gÚgÚW¸d -œ"Ï‚Ñ?vq¬˜°˛4ì+ñfÚÔƒ—·OÀgÂ‡–¢n∂5fz©√„Ÿﬂzy:—”èiºlﬁﬁ›uö‚ãÇﬁHÙÃ«”˛0Ñ∑ó÷y<£ã˛Ëmw{„ÍãO˛r÷Û 
 endstream
 endobj
-33 0 obj
+32 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /KGXEVF+TeXGyreTermesX-Regular
-/FontDescriptor 34 0 R
+/FontDescriptor 33 0 R
 /FirstChar 16
 /LastChar 122
-/Widths 36 0 R
-/Encoding 31 0 R
-/ToUnicode 37 0 R
+/Widths 35 0 R
+/Encoding 30 0 R
+/ToUnicode 36 0 R
 >>
 endobj
-34 0 obj
+33 0 obj
 <<
 /Type /FontDescriptor
 /FontName /KGXEVF+TeXGyreTermesX-Regular
@@ -5817,10 +5812,10 @@ endobj
 /StemV 102
 /XHeight 450
 /CharSet (\057A\057B\057C\057D\057E\057F\057G\057H\057I\057J\057K\057L\057M\057N\057O\057P\057Q\057R\057S\057T\057U\057V\057W\057Y\057Z\057a\057asterisk\057at\057b\057c\057colon\057comma\057d\057e\057eight\057f\057ff\057ffi\057fi\057five\057four\057g\057h\057hyphen\057i\057j\057k\057l\057m\057n\057nine\057o\057one\057p\057parenleft\057parenright\057percent\057period\057q\057question\057quotedblleft\057quotedblright\057r\057s\057seven\057six\057t\057three\057two\057u\057v\057w\057x\057y\057z\057zero)
-/FontFile 35 0 R
+/FontFile 34 0 R
 >>
 endobj
-35 0 obj
+34 0 obj
 <<
 /Length1 1163
 /Length2 41085
@@ -5996,10 +5991,10 @@ Ok‚ñÇ|+’ëì;
 µï∆…˘B≠lFØÖÑ)t∆ˆEUh0î∂≤ÌÀ
 endstream
 endobj
-36 0 obj
+35 0 obj
 [ 444 444 444 500 500 500 1000 0 336 278 278 600 556 556 827 827 500 333 408 500 500 833 778 333 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 ]
 endobj
-37 0 obj
+36 0 obj
 <<
 /Filter /FlateDecode
 /Length 872
@@ -6014,7 +6009,7 @@ gÏnÖ3∏Y·LÛÖ3Ú[·åúïp∆πïpÜøŒW¬y*·LΩ¬ªW¬ô¸¬ô¸?HÀ≥ªT¬ªT¬˜a%¸i&ˇV,Õ‰ﬂIEsÑ?<
 z/—3O˚~/ØÆ”xB˝—;Ô˙F∆’'˝±Æ˙_
 endstream
 endobj
-38 0 obj
+37 0 obj
 <<
 /Length 2878
 >>
@@ -6110,11 +6105,11 @@ Q
 
 endstream
 endobj
-39 0 obj
+38 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 391.13987 670.33 544.1 682.06 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6124,11 +6119,11 @@ endobj
 >>
 >>
 endobj
-40 0 obj
+39 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 433.609 653.33 544.1 665.06 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6138,11 +6133,11 @@ endobj
 >>
 >>
 endobj
-41 0 obj
+40 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 99.803 358.872 433.977 370.601 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6152,11 +6147,11 @@ endobj
 >>
 >>
 endobj
-42 0 obj
+41 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 99.803 342.786 147.461 354.106 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6166,11 +6161,11 @@ endobj
 >>
 >>
 endobj
-43 0 obj
+42 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 99.803 325.883 484.632 337.612 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6180,11 +6175,11 @@ endobj
 >>
 >>
 endobj
-44 0 obj
+43 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 99.8 99.85505 343.57838 111.58505 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6194,11 +6189,11 @@ endobj
 >>
 >>
 endobj
-45 0 obj
+44 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 4 0 R
+/P 3 0 R
 /Rect [ 99.8 83.36005 392.03663 95.09005 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -6208,17 +6203,17 @@ endobj
 >>
 >>
 endobj
-46 0 obj
+45 0 obj
 <<
 /Type /Page
-/Contents 47 0 R
-/Resources 48 0 R
+/Contents 46 0 R
+/Resources 47 0 R
 /MediaBox [ 0 0 612 792 ]
-/Annots [ 60 0 R ]
+/Annots [ 59 0 R ]
 /Parent 2 0 R
 >>
 endobj
-47 0 obj
+46 0 obj
 <<
 /Length 10027
 >>
@@ -6353,11 +6348,11 @@ ET
 
 endstream
 endobj
-48 0 obj
+47 0 obj
 <<
 /Font <<
-/F39 49 0 R
-/F38 55 0 R
+/F39 48 0 R
+/F38 54 0 R
 /F_CFXS <<
 /Type /Font
 /Subtype /Type1
@@ -6368,20 +6363,20 @@ endobj
 /ProcSet [ /PDF /Text ]
 >>
 endobj
-49 0 obj
+48 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /LTNTSQ+TeXGyreTermesX-Bold
-/FontDescriptor 50 0 R
+/FontDescriptor 49 0 R
 /FirstChar 30
 /LastChar 121
-/Widths 52 0 R
-/Encoding 53 0 R
-/ToUnicode 54 0 R
+/Widths 51 0 R
+/Encoding 52 0 R
+/ToUnicode 53 0 R
 >>
 endobj
-50 0 obj
+49 0 obj
 <<
 /Type /FontDescriptor
 /FontName /LTNTSQ+TeXGyreTermesX-Bold
@@ -6394,10 +6389,10 @@ endobj
 /StemV 139
 /XHeight 461
 /CharSet (\057A\057C\057D\057E\057F\057G\057H\057I\057J\057O\057P\057Q\057R\057S\057T\057W\057a\057asterisk\057c\057colon\057comma\057d\057e\057f\057ffi\057five\057four\057g\057h\057i\057k\057l\057m\057n\057o\057one\057p\057r\057s\057six\057t\057three\057two\057u\057v\057w\057x\057y\057zero)
-/FontFile 51 0 R
+/FontFile 50 0 R
 >>
 endobj
-51 0 obj
+50 0 obj
 <<
 /Length1 1150
 /Length2 37830
@@ -6560,16 +6555,16 @@ NÑ5ƒÌ5Ò˙qÒ≥\ÍE;4tè¨µòX≥rØ:îÃ`ÓÅ∂pTt`£}‚yJd=_∫ÆõÀËÊ%µ°mŒK¨Ì`` ˜∂‘8pŒŒà∫±
 ^3§'d”Kq®8Ù∏©¬Ÿdi¥Kéˇ@égéÊpJ†æÉ/ÓÊéÕ«gŒ;∞óT/÷m¥vy˝ﬂ_‰†d¸1¥`—ª+’™ “ÕWny¬˘ÑL˙¯fcú*Q√ÆΩÛﬁ.HÕy6†Ò«}l´a•πe⁄∑≈»GN¡œ*‰¥ÕÛ?GuúQÜxqÅ¸µd,‡ $Óƒf	≥¸%ªúïmÈõƒ;˘âd#ç÷¿‡ÅÚ^˘‡a»Ü«¡‚$MªÑW∏_(æruÉ.˚K=Î∞xRë∏ ¯ï'¥A0≠6>NÏ…Ù±Å–ÕÛóª©¸G©ÿvò[$¸T#~dSAJÈñ‘◊‡6tG9ó3“P»ˆs§*WNÚµŒ+›õ£8…Í˛u≠ú∫È∞ñc`t-»áR∫ íæ€t-i√X2%Í#Ω€5;Ê˘(€®>DmW;QÉIHÕñ7í
 endstream
 endobj
-52 0 obj
+51 0 obj
 [ 833 833 500 333 555 500 500 1000 833 333 333 333 500 570 250 333 250 278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 500 556 556 444 389 333 556 500 722 500 500 ]
 endobj
-53 0 obj
+52 0 obj
 <<
 /Type /Encoding
 /Differences [ 16 /quotedblleft /quotedblright 27 /ff /fi 30 /ffi 37 /percent 40 /parenleft /parenright /asterisk 44 /comma /hyphen /period 48 /zero /one /two /three /four /five /six /seven /eight /nine /colon 63 /question /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R /S /T /U /V /W 89 /Y /Z 97 /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z ]
 >>
 endobj
-54 0 obj
+53 0 obj
 <<
 /Filter /FlateDecode
 /Length 871
@@ -6582,20 +6577,20 @@ gúkÖ3xZ·L·å›≠pF~+úë”
 gÏnÖ3∏Y·LÛÖ3Ú[·åúN8„\'ú·w¬~'úë«	gÍŒÿ›	gÚgÚW¸d -œ"Ï‚Ñ?vq¬˜°˛4ì+ñfÚÔƒ—·OÀgÂ‡–¢n∂5fz©√„Ÿﬂzy:—”èiºlﬁﬁ›uö‚ãÇﬁHÙÃ«”˛0Ñ∑ó÷y<£ã˛Ëmw{„ÍãO˛r÷Û 
 endstream
 endobj
-55 0 obj
+54 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /KGXEVF+TeXGyreTermesX-Regular
-/FontDescriptor 56 0 R
+/FontDescriptor 55 0 R
 /FirstChar 16
 /LastChar 122
-/Widths 58 0 R
-/Encoding 53 0 R
-/ToUnicode 59 0 R
+/Widths 57 0 R
+/Encoding 52 0 R
+/ToUnicode 58 0 R
 >>
 endobj
-56 0 obj
+55 0 obj
 <<
 /Type /FontDescriptor
 /FontName /KGXEVF+TeXGyreTermesX-Regular
@@ -6608,10 +6603,10 @@ endobj
 /StemV 102
 /XHeight 450
 /CharSet (\057A\057B\057C\057D\057E\057F\057G\057H\057I\057J\057K\057L\057M\057N\057O\057P\057Q\057R\057S\057T\057U\057V\057W\057Y\057Z\057a\057asterisk\057at\057b\057c\057colon\057comma\057d\057e\057eight\057f\057ff\057ffi\057fi\057five\057four\057g\057h\057hyphen\057i\057j\057k\057l\057m\057n\057nine\057o\057one\057p\057parenleft\057parenright\057percent\057period\057q\057question\057quotedblleft\057quotedblright\057r\057s\057seven\057six\057t\057three\057two\057u\057v\057w\057x\057y\057z\057zero)
-/FontFile 57 0 R
+/FontFile 56 0 R
 >>
 endobj
-57 0 obj
+56 0 obj
 <<
 /Length1 1163
 /Length2 41085
@@ -6787,10 +6782,10 @@ Ok‚ñÇ|+’ëì;
 µï∆…˘B≠lFØÖÑ)t∆ˆEUh0î∂≤ÌÀ
 endstream
 endobj
-58 0 obj
+57 0 obj
 [ 444 444 444 500 500 500 1000 0 336 278 278 600 556 556 827 827 500 333 408 500 500 833 778 333 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 ]
 endobj
-59 0 obj
+58 0 obj
 <<
 /Filter /FlateDecode
 /Length 872
@@ -6805,7 +6800,7 @@ gÏnÖ3∏Y·LÛÖ3Ú[·åúïp∆πïpÜøŒW¬y*·LΩ¬ªW¬ô¸¬ô¸?HÀ≥ªT¬ªT¬˜a%¸i&ˇV,Õ‰ﬂIEsÑ?<
 z/—3O˚~/ØÆ”xB˝—;Ô˙F∆’'˝±Æ˙_
 endstream
 endobj
-60 0 obj
+59 0 obj
 <<
 /Type /Annot
 /Subtype /Link
@@ -6817,30 +6812,30 @@ endobj
 >>
 >>
 endobj
-61 0 obj
+60 0 obj
 <<
 /Type /Page
-/Contents 62 0 R
+/Contents [ 61 0 R 89 0 R ]
 /Resources <<
 /Font <<
-/F1 63 0 R
-/F1-0 64 0 R
-/F2 65 0 R
-/F2-0 68 0 R
-/F2-1 71 0 R
-/F2-2 74 0 R
-/F2-3 77 0 R
-/F38 55 0 R
-/F39 49 0 R
+/F1 62 0 R
+/F1-0 63 0 R
+/F2 64 0 R
+/F2-0 67 0 R
+/F2-1 70 0 R
+/F2-2 73 0 R
+/F2-3 76 0 R
+/F38 54 0 R
+/F39 48 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
 /MediaBox [ 0 0 612 792 ]
-/Annots [ 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R ]
+/Annots [ 79 0 R 80 0 R 81 0 R 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 90 0 R ]
 /Parent 2 0 R
 >>
 endobj
-62 0 obj
+61 0 obj
 <<
 /Length 11203
 >>
@@ -6983,6 +6978,15 @@ Q
 
 endstream
 endobj
+62 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+>>
+endobj
 63 0 obj
 <<
 /Type /Font
@@ -6996,41 +7000,32 @@ endobj
 <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
-/Name /F1
+/FirstChar 0
+/FontDescriptor 65 0 R
+/LastChar 255
+/Name /F2
+/Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
 >>
 endobj
 65 0 obj
 <<
-/Type /Font
-/Subtype /Type1
-/BaseFont /TeXGyreTermesX-Regular
-/Encoding /WinAnsiEncoding
-/FirstChar 0
-/FontDescriptor 66 0 R
-/LastChar 255
-/Name /F2
-/Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
+/Type /FontDescriptor
+/Ascent 662
+/CapHeight 662
+/Descent -217
+/Flags 34
+/FontBBox [ -526 -281 1306 1055 ]
+/FontFile 66 0 R
+/FontName /TeXGyreTermesX-Regular
+/ItalicAngle 0
+/StemV 0
+/XHeight 450
 >>
 endobj
 66 0 obj
 <<
-/Type /FontDescriptor
-/Ascent 662
-/CapHeight 662
-/Descent -217
-/Flags 34
-/FontBBox [ -526 -281 1306 1055 ]
-/FontFile 67 0 R
-/FontName /TeXGyreTermesX-Regular
-/ItalicAngle 0
-/StemV 0
-/XHeight 450
->>
-endobj
-67 0 obj
-<<
 /Length1 1160
 /Length2 285104
 /Length3 532
@@ -8214,36 +8209,36 @@ cleartomark
 
 endstream
 endobj
-68 0 obj
+67 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 69 0 R
+/FontDescriptor 68 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
+>>
+endobj
+68 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 662
+/CapHeight 662
+/Descent -217
+/Flags 34
+/FontBBox [ -526 -281 1306 1055 ]
+/FontFile 69 0 R
+/FontName /TeXGyreTermesX-Regular
+/ItalicAngle 0
+/StemV 0
+/XHeight 450
 >>
 endobj
 69 0 obj
 <<
-/Type /FontDescriptor
-/Ascent 662
-/CapHeight 662
-/Descent -217
-/Flags 34
-/FontBBox [ -526 -281 1306 1055 ]
-/FontFile 70 0 R
-/FontName /TeXGyreTermesX-Regular
-/ItalicAngle 0
-/StemV 0
-/XHeight 450
->>
-endobj
-70 0 obj
-<<
 /Length1 1160
 /Length2 285104
 /Length3 532
@@ -9427,36 +9422,36 @@ cleartomark
 
 endstream
 endobj
-71 0 obj
+70 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 72 0 R
+/FontDescriptor 71 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
+>>
+endobj
+71 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 662
+/CapHeight 662
+/Descent -217
+/Flags 34
+/FontBBox [ -526 -281 1306 1055 ]
+/FontFile 72 0 R
+/FontName /TeXGyreTermesX-Regular
+/ItalicAngle 0
+/StemV 0
+/XHeight 450
 >>
 endobj
 72 0 obj
 <<
-/Type /FontDescriptor
-/Ascent 662
-/CapHeight 662
-/Descent -217
-/Flags 34
-/FontBBox [ -526 -281 1306 1055 ]
-/FontFile 73 0 R
-/FontName /TeXGyreTermesX-Regular
-/ItalicAngle 0
-/StemV 0
-/XHeight 450
->>
-endobj
-73 0 obj
-<<
 /Length1 1160
 /Length2 285104
 /Length3 532
@@ -10640,36 +10635,36 @@ cleartomark
 
 endstream
 endobj
-74 0 obj
+73 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 75 0 R
+/FontDescriptor 74 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
+>>
+endobj
+74 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 662
+/CapHeight 662
+/Descent -217
+/Flags 34
+/FontBBox [ -526 -281 1306 1055 ]
+/FontFile 75 0 R
+/FontName /TeXGyreTermesX-Regular
+/ItalicAngle 0
+/StemV 0
+/XHeight 450
 >>
 endobj
 75 0 obj
 <<
-/Type /FontDescriptor
-/Ascent 662
-/CapHeight 662
-/Descent -217
-/Flags 34
-/FontBBox [ -526 -281 1306 1055 ]
-/FontFile 76 0 R
-/FontName /TeXGyreTermesX-Regular
-/ItalicAngle 0
-/StemV 0
-/XHeight 450
->>
-endobj
-76 0 obj
-<<
 /Length1 1160
 /Length2 285104
 /Length3 532
@@ -11853,20 +11848,20 @@ cleartomark
 
 endstream
 endobj
-77 0 obj
+76 0 obj
 <<
 /Type /Font
 /Subtype /Type1
 /BaseFont /TeXGyreTermesX-Regular
 /Encoding /WinAnsiEncoding
 /FirstChar 0
-/FontDescriptor 78 0 R
+/FontDescriptor 77 0 R
 /LastChar 255
 /Name /F2
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 350 500 350 333 500 444 1000 0 0 333 1000 556 333 889 350 611 350 350 333 333 444 444 350 500 1000 333 980 389 333 722 350 444 722 250 333 500 500 500 500 200 0 333 760 276 500 564 333 760 333 400 564 0 0 333 0 0 250 333 0 310 500 750 750 750 444 722 722 722 722 722 722 889 667 611 611 611 611 333 333 333 333 722 722 722 722 722 722 722 564 722 722 722 722 722 722 556 500 444 444 444 444 444 444 667 444 444 444 444 444 278 278 278 278 500 500 500 500 500 500 500 564 500 500 500 500 500 500 500 500 ]
 >>
 endobj
-78 0 obj
+77 0 obj
 <<
 /Type /FontDescriptor
 /Ascent 662
@@ -11874,14 +11869,14 @@ endobj
 /Descent -217
 /Flags 34
 /FontBBox [ -526 -281 1306 1055 ]
-/FontFile 79 0 R
+/FontFile 78 0 R
 /FontName /TeXGyreTermesX-Regular
 /ItalicAngle 0
 /StemV 0
 /XHeight 450
 >>
 endobj
-79 0 obj
+78 0 obj
 <<
 /Length1 1160
 /Length2 285104
@@ -13066,11 +13061,11 @@ cleartomark
 
 endstream
 endobj
-80 0 obj
+79 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 403.70545 372.255 511.5019 383.985 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13080,11 +13075,11 @@ endobj
 >>
 >>
 endobj
-81 0 obj
+80 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 390.97453 356.742 478.15278 368.472 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13094,11 +13089,11 @@ endobj
 >>
 >>
 endobj
-82 0 obj
+81 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 419.75273 341.229 552.9892 352.959 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13108,11 +13103,11 @@ endobj
 >>
 >>
 endobj
-83 0 obj
+82 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 405.77818 325.716 499.6219 337.446 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13122,11 +13117,11 @@ endobj
 >>
 >>
 endobj
-84 0 obj
+83 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 381.88725 310.203 456.65095 321.933 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13136,11 +13131,11 @@ endobj
 >>
 >>
 endobj
-85 0 obj
+84 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 374.01087 294.69 454.84004 306.42 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13150,11 +13145,11 @@ endobj
 >>
 >>
 endobj
-86 0 obj
+85 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 402.49455 279.177 535.7419 290.907 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13164,11 +13159,11 @@ endobj
 >>
 >>
 endobj
-87 0 obj
+86 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 316.149 263.664 419.40727 275.394 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13178,11 +13173,11 @@ endobj
 >>
 >>
 endobj
-88 0 obj
+87 0 obj
 <<
 /Type /Annot
 /Subtype /Link
-/P 61 0 R
+/P 60 0 R
 /Rect [ 389.46907 248.151 549.69467 259.881 ]
 /H /I
 /Border [ 0 0 0 ]
@@ -13192,103 +13187,146 @@ endobj
 >>
 >>
 endobj
+88 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+89 0 obj
+<<
+/Length 221
+>>
+stream
+q
+0 0 0 rg
+BT
+/F2-3 10.9091 Tf
+1 0 0 1 100.8 236.008 Tm
+(Prof. Guido Friebel, Goethe University Frankfurt, ) Tj
+ET
+0 0 0.80392 rg
+BT
+/F2-3 10.9091 Tf
+1 0 0 1 321.076547 236.008 Tm
+(gfriebel@wiwi.uni-frankfurt.de) Tj
+ET
+Q
+
+endstream
+endobj
+90 0 obj
+<<
+/Type /Annot
+/Subtype /Link
+/P 60 0 R
+/Rect [ 320.076547 232.638 459.967571 244.368 ]
+/H /I
+/Border [ 0 0 0 ]
+/A <<
+/S /URI
+/URI (mailto\072gfriebel\100wiwi\056uni\055frankfurt\056de)
+>>
+>>
+endobj
 xref
-0 89
+0 91
 0000000000 65535 f 
 0000000015 00000 n 
-0000000054 00000 n 
-0000000127 00000 n 
-0000000176 00000 n 
-0000000536 00000 n 
-0000000643 00000 n 
-0000000750 00000 n 
-0000001889 00000 n 
-0000002100 00000 n 
-0000133953 00000 n 
-0000135083 00000 n 
-0000135300 00000 n 
-0000422194 00000 n 
-0000423335 00000 n 
-0000423548 00000 n 
-0000555402 00000 n 
-0000556541 00000 n 
-0000556757 00000 n 
-0000690137 00000 n 
-0000691269 00000 n 
-0000691483 00000 n 
-0000946812 00000 n 
-0000947951 00000 n 
-0000948167 00000 n 
-0001081547 00000 n 
-0001081724 00000 n 
-0001085937 00000 n 
-0001086126 00000 n 
-0001086641 00000 n 
-0001125407 00000 n 
-0001125797 00000 n 
-0001126223 00000 n 
-0001127167 00000 n 
-0001127359 00000 n 
-0001128089 00000 n 
-0001170104 00000 n 
-0001170551 00000 n 
-0001171496 00000 n 
-0001174427 00000 n 
-0001174624 00000 n 
-0001174821 00000 n 
-0001175060 00000 n 
-0001175301 00000 n 
-0001175563 00000 n 
-0001175821 00000 n 
-0001176056 00000 n 
-0001176184 00000 n 
-0001186265 00000 n 
-0001186439 00000 n 
-0001186628 00000 n 
-0001187143 00000 n 
-0001225909 00000 n 
-0001226299 00000 n 
-0001226725 00000 n 
-0001227669 00000 n 
-0001227861 00000 n 
-0001228591 00000 n 
-0001270606 00000 n 
-0001271053 00000 n 
-0001271998 00000 n 
-0001272162 00000 n 
-0001272516 00000 n 
-0001283773 00000 n 
-0001283881 00000 n 
-0001283989 00000 n 
-0001285119 00000 n 
-0001285336 00000 n 
-0001572230 00000 n 
-0001573360 00000 n 
-0001573577 00000 n 
-0001860471 00000 n 
-0001861601 00000 n 
-0001861818 00000 n 
-0002148712 00000 n 
-0002149842 00000 n 
-0002150059 00000 n 
-0002436953 00000 n 
-0002438083 00000 n 
-0002438300 00000 n 
-0002725194 00000 n 
-0002725390 00000 n 
-0002725581 00000 n 
-0002725781 00000 n 
-0002725973 00000 n 
-0002726158 00000 n 
-0002726342 00000 n 
-0002726541 00000 n 
-0002726729 00000 n 
+0000000064 00000 n 
+0000000137 00000 n 
+0000000496 00000 n 
+0000000603 00000 n 
+0000000710 00000 n 
+0000001849 00000 n 
+0000002060 00000 n 
+0000133913 00000 n 
+0000135042 00000 n 
+0000135259 00000 n 
+0000422153 00000 n 
+0000423294 00000 n 
+0000423507 00000 n 
+0000555361 00000 n 
+0000556500 00000 n 
+0000556716 00000 n 
+0000690096 00000 n 
+0000691228 00000 n 
+0000691442 00000 n 
+0000946771 00000 n 
+0000947910 00000 n 
+0000948126 00000 n 
+0001081506 00000 n 
+0001081683 00000 n 
+0001085896 00000 n 
+0001086085 00000 n 
+0001086600 00000 n 
+0001125366 00000 n 
+0001125756 00000 n 
+0001126182 00000 n 
+0001127126 00000 n 
+0001127318 00000 n 
+0001128048 00000 n 
+0001170063 00000 n 
+0001170510 00000 n 
+0001171455 00000 n 
+0001174386 00000 n 
+0001174583 00000 n 
+0001174780 00000 n 
+0001175019 00000 n 
+0001175260 00000 n 
+0001175522 00000 n 
+0001175780 00000 n 
+0001176015 00000 n 
+0001176143 00000 n 
+0001186224 00000 n 
+0001186398 00000 n 
+0001186587 00000 n 
+0001187102 00000 n 
+0001225868 00000 n 
+0001226258 00000 n 
+0001226684 00000 n 
+0001227628 00000 n 
+0001227820 00000 n 
+0001228550 00000 n 
+0001270565 00000 n 
+0001271012 00000 n 
+0001271957 00000 n 
+0001272121 00000 n 
+0001272493 00000 n 
+0001283750 00000 n 
+0001283858 00000 n 
+0001283966 00000 n 
+0001285096 00000 n 
+0001285313 00000 n 
+0001572207 00000 n 
+0001573337 00000 n 
+0001573554 00000 n 
+0001860448 00000 n 
+0001861578 00000 n 
+0001861795 00000 n 
+0002148689 00000 n 
+0002149819 00000 n 
+0002150036 00000 n 
+0002436930 00000 n 
+0002438060 00000 n 
+0002438277 00000 n 
+0002725171 00000 n 
+0002725367 00000 n 
+0002725558 00000 n 
+0002725758 00000 n 
+0002725950 00000 n 
+0002726135 00000 n 
+0002726319 00000 n 
+0002726518 00000 n 
+0002726706 00000 n 
+0002726911 00000 n 
+0002726951 00000 n 
+0002727224 00000 n 
 trailer
 <<
-/Size 89
-/Root 3 0 R
-/Info 1 0 R
+/Size 91
+/Root 1 0 R
+/Info 88 0 R
 >>
 startxref
-2726934
+2727433
 %%EOF
