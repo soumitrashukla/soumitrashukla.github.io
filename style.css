@@ -1221,11 +1221,17 @@ nav {
 .paper-status {
     display: inline-block;
     margin-left: 1.25rem;
-    color: #326c70;
+    color: #168080;
     font-family: 'Crimson Text', Georgia, serif;
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     white-space: nowrap;
     vertical-align: baseline;
+}
+
+@media (max-width: 768px) {
+    .paper-status {
+        font-size: 17px;
+    }
 }
