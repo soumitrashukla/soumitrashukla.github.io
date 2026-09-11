@@ -1,0 +1,14 @@
+/* Site-wide warm charcoal palette. */
+:root{color-scheme:dark;--off-white:#191918;--warm-gray:#232321;--text-dark:#eee9df;--text-light:#bdb8ad;--bgi-ink:#141413;--bgi-ink-deep:#eee9df;--brand-ink-deep:#eee9df;--bgi-copper:#d3ad75;--brand-accent:#d3ad75;--brand-accent-light:#d3ad75;--bgi-copper-light:#d3ad75;--dark-surface:#232321;--dark-line:#393934;--dark-status:#70c8be}
+ body{background:#191918;color:#eee9df}
+ .nav-container{background:#141413;box-shadow:none;border-bottom:1px solid #393934}
+ .logo,.nav-links a{color:#eee9df}.nav-links a::after,.menu-toggle span{background:#eee9df}
+ .paper-item,.talks-feature,.talks-list,.discussions-list,.mentors-section,.rafa-namecard{background:#232321;box-shadow:none;border:1px solid #393934}
+ .paper-meta,.coauthors,.coauthors a,.research-award,.talk-panel{color:#bdb8ad}
+ .research-presentation:hover{background:none;color:#bdb8ad}
+ .paper-status{color:#70c8be}
+ .abstract-toggle{background:transparent;border:1px solid #d3ad75;color:#d3ad75}
+ .abstract-toggle:hover{background:#d3ad75;color:#141413}
+ .act-now-feature{background:#232321;border:1px solid #393934;box-shadow:none;color:#eee9df}
+ .nav-links{background:#141413}
+ a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid #70c8be;outline-offset:4px}
