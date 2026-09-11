@@ -1235,3 +1235,9 @@ nav {
         font-size: 17px;
     }
 }
+
+@media (max-width: 768px) {
+    .paper-status-desktop {
+        display: none;
+    }
+}
