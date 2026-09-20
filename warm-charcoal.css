@@ -12,3 +12,10 @@
  .act-now-feature{background:#232321;border:1px solid #393934;box-shadow:none;color:#eee9df}
  .nav-links{background:#141413}
  a:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid #70c8be;outline-offset:4px}
+
+/* Homepage profile links. */
+.social-profiles { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin: 20px 0 32px; }
+.social-profiles a { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; color: var(--text-light); font: 13px Inter, sans-serif; text-decoration: none; border-bottom: 1px solid #55534d; transition: color .15s, border-color .15s; }
+.social-profiles svg { width: 19px; height: 19px; fill: currentColor; flex-shrink: 0; }
+.social-profiles a:hover { color: var(--brand-accent); border-color: var(--brand-accent); }
+@media (max-width: 500px) { .social-profiles { gap: 15px; } }
