@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.dataset.theme='dark';}catch(e){}</script>
+    <title>Discussions - Soumitra Shukla</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=redesign-9">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-container">
+        <nav>
+            <a href="index.html" class="logo">Soumitra Shukla</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Soumitra_Shukla_CV.pdf" target="_blank">CV</a></li>
+                <li><a href="talks.html">Invited Conferences and Talks</a></li>
+                <li><a href="discussions.html" class="active">Discussions</a></li>
+                <li><a href="media.html">Media Mentions</a></li>
+                <li><a href="mentors.html">Mentors</a></li>
+                <li><a href="rafa.html">Rafa</a></li>
+            </ul>
+            <button class="theme-toggle" type="button" aria-label="Switch to dark theme"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="theme-label">Dark</span></button>
+            <div class="menu-toggle" onclick="toggleMenu()" role="button" tabindex="0" aria-label="Menu" aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="page-content">
+            <h2 class="section-title">Discussions</h2>
+
+            <figure class="page-art" aria-hidden="true">
+                <img src="art/discussions-light.webp" alt="" class="art-light" width="1800" height="600">
+                <img src="art/discussions-dark.webp" alt="" class="art-dark" width="1800" height="600">
+            </figure>
+            
+            <div class="discussions-list">
+                <div class="discussion-item">
+                    <a href="ClassGap_NBEROrg_discussion_shukla.pdf" target="_blank">The Class Gap in Career Progression: Evidence from US Academia</a>, Anna Stansbury and Kyra Rodriguez, NBER Organizational Economics, Fall 2024
+                </div>
+                <div class="discussion-item">
+                    <a href="WorkerAbsences_UCSD_discussion_shukla.pdf" target="_blank">Worker Absences and Demand for Flexible Contracts</a>, Suanna Oh, Sampreet Goraya, and Yogita Shamdasani, UCSD Program on the Indian Economy, Fall 2024
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js?v=redesign-9"></script>
+</body>
+</html>
