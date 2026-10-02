@@ -39,6 +39,21 @@ if (menuToggleButton) {
     });
 }
 
+// On phones and tablets, open links in the same tab. In-app browsers (opened from X,
+// LinkedIn, Instagram, ...) often silently ignore links that ask for a new tab.
+const touchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+function openLinksInSameTab(root) {
+    if (!touchDevice) {
+        return;
+    }
+    root.querySelectorAll('a[target="_blank"]').forEach(function(a) {
+        a.removeAttribute('target');
+    });
+}
+
+openLinksInSameTab(document);
+
 // Light / dark theme toggle (light is the default; the choice is remembered)
 const themeToggle = document.querySelector('.theme-toggle');
 if (themeToggle) {
@@ -148,6 +163,7 @@ if (homeResearch) {
                 return document.importNode(el, true);
             }));
             enhanceSections(homeResearch);
+            openLinksInSameTab(homeResearch);
             if (location.hash) {
                 const target = document.getElementById(location.hash.slice(1));
                 if (target) {
