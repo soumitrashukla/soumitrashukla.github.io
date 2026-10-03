@@ -240,7 +240,13 @@ nav {
 .profile-img {
     display: block;
     width: 100%;
+    height: auto;
     border-radius: 10px;
+}
+
+/* Soften the paper-white portrait a little against the charcoal background */
+:root[data-theme="dark"] .profile-img {
+    filter: brightness(0.78) saturate(0.92);
 }
 
 .content-section h1 {
