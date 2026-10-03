@@ -175,8 +175,12 @@ nav {
     display: none;
     flex-direction: column;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    padding: 0;
+    border: 0;
+    background: none;
     cursor: pointer;
 }
 
@@ -1106,6 +1110,10 @@ a.research-award:hover {
         display: none;
         position: absolute;
         top: 100%;
+        max-height: calc(100vh - 68px);
+        max-height: calc(100dvh - 68px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
         left: 0;
         right: 0;
         flex-direction: column;
@@ -1146,6 +1154,11 @@ a.research-award:hover {
 }
 
 @media (max-width: 768px) {
+    .nav-links {
+        max-height: calc(100vh - 60px);
+        max-height: calc(100dvh - 60px);
+    }
+
     nav {
         padding: 0 16px;
         height: 60px;

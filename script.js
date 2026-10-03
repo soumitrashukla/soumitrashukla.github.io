@@ -1,7 +1,18 @@
-// Toggle mobile menu
+// Keep the mobile menu and its accessible state in sync.
+function setMenuOpen(open) {
+    const navLinks = document.getElementById('navLinks');
+    const menuToggle = document.querySelector('.menu-toggle');
+    if (navLinks && menuToggle) {
+        navLinks.classList.toggle('active', open);
+        menuToggle.setAttribute('aria-expanded', String(open));
+    }
+}
+
 function toggleMenu() {
     const navLinks = document.getElementById('navLinks');
-    navLinks.classList.toggle('active');
+    if (navLinks) {
+        setMenuOpen(!navLinks.classList.contains('active'));
+    }
 }
 
 // Toggle abstract visibility
@@ -17,42 +28,55 @@ function toggleAbstract(button) {
     }
 }
 
-// Close mobile menu when clicking outside
+// Close the menu after choosing a link, clicking outside, or pressing Escape.
 document.addEventListener('click', function(e) {
-    const nav = document.querySelector('nav');
-    const navLinks = document.getElementById('navLinks');
-    const menuToggle = document.querySelector('.menu-toggle');
-    
-    if (!nav.contains(e.target) && navLinks.classList.contains('active')) {
-        navLinks.classList.remove('active');
+    const header = document.querySelector('.nav-container');
+    if (header && (!header.contains(e.target) || e.target.closest('#navLinks a'))) {
+        setMenuOpen(false);
     }
 });
 
-// Open the mobile menu from the keyboard
-const menuToggleButton = document.querySelector('.menu-toggle');
-if (menuToggleButton) {
-    menuToggleButton.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            toggleMenu();
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const navLinks = document.getElementById('navLinks');
+        if (navLinks && navLinks.classList.contains('active')) {
+            setMenuOpen(false);
+            document.querySelector('.menu-toggle').focus();
+        }
+    }
+});
+
+// Small screens and touch-capable browsers use normal same-tab navigation.
+// Some in-app browsers ignore new-tab requests, and hybrid devices can report
+// a mouse as their primary pointer even when the visitor is tapping the screen.
+const mobileLinks = window.matchMedia('(max-width: 1040px), (any-pointer: coarse)');
+const originalLinkTargets = new WeakMap();
+
+function openLinksInSameTab(root) {
+    root.querySelectorAll('a').forEach(function(a) {
+        if (a.getAttribute('target') === '_blank') {
+            originalLinkTargets.set(a, '_blank');
+        }
+        if (originalLinkTargets.has(a)) {
+            if (mobileLinks.matches) {
+                a.removeAttribute('target');
+            } else {
+                a.setAttribute('target', originalLinkTargets.get(a));
+            }
         }
     });
 }
 
-// On phones and tablets, open links in the same tab. In-app browsers (opened from X,
-// LinkedIn, Instagram, ...) often silently ignore links that ask for a new tab.
-const touchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
-
-function openLinksInSameTab(root) {
-    if (!touchDevice) {
-        return;
-    }
-    root.querySelectorAll('a[target="_blank"]').forEach(function(a) {
-        a.removeAttribute('target');
-    });
-}
-
 openLinksInSameTab(document);
+function syncMobileLinks() {
+    openLinksInSameTab(document);
+    setMenuOpen(false);
+}
+if (mobileLinks.addEventListener) {
+    mobileLinks.addEventListener('change', syncMobileLinks);
+} else {
+    mobileLinks.addListener(syncMobileLinks);
+}
 
 // Light / dark theme toggle (light is the default; the choice is remembered)
 const themeToggle = document.querySelector('.theme-toggle');
