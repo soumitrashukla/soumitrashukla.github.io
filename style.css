@@ -1229,7 +1229,8 @@ a.research-award:hover {
 
     .paper-status {
         position: static;
-        display: inline-block;
+        display: block;
+        width: fit-content;
         margin-top: 8px;
     }
 
