@@ -13,6 +13,20 @@
         .madhushala-quote blockquote { font-family: 'Noto Serif Devanagari', 'Kohinoor Devanagari', serif; font-size: clamp(1rem, 1.6vw, 1.15rem); line-height: 2; color: var(--text-dark); }
         .madhushala-quote blockquote span { display: block; }
         .madhushala-quote figcaption { margin-top: .65rem; font-size: .78rem; color: var(--text-light); line-height: 1.6; }
+        .couplet-translation { margin-top: 2px; }
+        .couplet-translation summary {
+            display: flex; align-items: center; gap: 8px;
+            width: fit-content; min-height: 44px;
+            font: 400 12px/1.5 'Inter', sans-serif;
+            color: var(--muted); cursor: pointer; list-style: none;
+        }
+        .couplet-translation summary::-webkit-details-marker { display: none; }
+        .couplet-translation summary::after { content: '+'; color: var(--accent); font-size: 16px; }
+        .couplet-translation[open] summary::after { content: '−'; }
+        .couplet-translation summary:hover { color: var(--accent); }
+        .couplet-translation summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+        .couplet-translation p { margin: 0; padding: 0 0 4px; font: italic 18px/1.55 'Crimson Text', Georgia, serif; color: var(--muted); }
+        .couplet-translation p span { display: block; }
     </style>
 </head>
 <body>
@@ -77,6 +91,10 @@
                             <span>फिर भी पीनेवालों को है एक पहेली मधुशाला।</span>
                         </blockquote>
                         <figcaption>— Harivansh Rai Bachchan, <cite>Madhushala</cite> (1935)</figcaption>
+                        <details class="couplet-translation">
+                            <summary>English translation</summary>
+                            <p lang="en"><span>The cupbearer hints at many meanings;</span><span>yet to those who drink, the tavern remains a riddle.</span></p>
+                        </details>
                     </figure>
 
 
