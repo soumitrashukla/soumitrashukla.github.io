@@ -1327,3 +1327,8 @@ a.research-award:hover {
     .nav-links { order: 3; width: 100%; justify-content: space-between; gap: 12px; }
     .sec-head { scroll-margin-top: 120px; }
 }
+
+.site-footer .cv-download-row { padding-top: 14px; border-top: 0; }
+.cv-download { display: inline-flex; align-items: center; min-width: 44px; min-height: 44px; justify-content: center; border-radius: 4px; }
+.cv-download:hover { background: var(--line); }
+.cv-download:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
