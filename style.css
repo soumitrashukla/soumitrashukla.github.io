@@ -1320,3 +1320,10 @@ a.research-award:hover {
         transition: none !important;
     }
 }
+
+/* Keep the expanded desktop navigation readable on its own row. */
+@media (min-width: 1041px) {
+    .nav-container nav { height: auto; min-height: 68px; flex-wrap: wrap; padding-top: 14px; padding-bottom: 12px; gap: 12px 24px; }
+    .nav-links { order: 3; width: 100%; justify-content: space-between; gap: 12px; }
+    .sec-head { scroll-margin-top: 120px; }
+}
