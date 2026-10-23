@@ -1328,7 +1328,10 @@ a.research-award:hover {
     .sec-head { scroll-margin-top: 120px; }
 }
 
-.site-footer .cv-download-row { padding-top: 14px; border-top: 0; }
-.cv-download { display: inline-flex; align-items: center; min-width: 44px; min-height: 44px; justify-content: center; border-radius: 4px; }
+.site-footer .contact-info { display: grid; grid-template-columns: 70px minmax(0, 1fr); column-gap: 28px; }
+.site-footer .contact-info h3 { margin: 0; }
+.site-footer .contact-item > span { width: 18px; text-align: center; }
+.site-footer .cv-download-row { padding-top: 4px; border-top: 0; }
+.cv-download { display: inline-flex; align-items: center; width: 44px; min-height: 44px; margin-left: -13px; justify-content: center; border-radius: 4px; color: var(--muted); }
 .cv-download:hover { background: var(--line); }
 .cv-download:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
