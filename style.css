@@ -723,7 +723,8 @@ a.research-award:hover {
     content: ' \25BE';
 }
 
-.abstract-toggle:has(+ .abstract-content.show)::after {
+.abstract-toggle:has(+ .abstract-content.show)::after,
+.abstract-toggle[aria-expanded="true"]::after {
     content: ' \25B4';
 }
 
@@ -1335,3 +1336,21 @@ a.research-award:hover {
 .cv-download { display: inline-flex; align-items: center; width: 44px; min-height: 44px; margin-left: -13px; justify-content: center; border-radius: 4px; color: var(--muted); }
 .cv-download:hover { background: var(--line); }
 .cv-download:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Citation controls and expandable reference panels. */
+.paper-actions {display:flex;align-items:center;gap:24px;margin-top:4px;}
+.paper-actions .abstract-toggle {margin-right:0;}
+.cite-toggle {background:none;border:0;border-bottom:1px solid var(--rule);padding:8px 0;color:var(--accent);font:400 11px/1.4 'IBM Plex Mono',monospace;cursor:pointer;min-height:44px;}
+.cite-toggle:hover {border-color:var(--accent);}
+.citation-panel {margin-top:12px;padding:18px 20px;background:var(--bg);border:1px solid var(--rule);border-radius:3px;}
+.citation-panel[hidden] {display:none;}
+.citation-toolbar {display:flex;align-items:center;gap:18px;margin-bottom:12px;}
+.citation-tab,.citation-copy {font:400 11px/1.5 'IBM Plex Mono',monospace;background:none;border:0;padding:6px 0;color:var(--muted);cursor:pointer;min-height:36px;}
+.citation-tab[aria-selected=true] {color:var(--accent);border-bottom:1px solid var(--accent);}
+.citation-copy {margin-left:auto;color:var(--accent);}
+.citation-content {font:400 14px/1.7 'Inter',sans-serif;color:var(--text);white-space:pre-wrap;overflow-wrap:anywhere;margin:0;}
+.citation-content.bibtex {font:400 12px/1.7 'IBM Plex Mono',monospace;}
+.cite-toggle:focus-visible,.citation-tab:focus-visible,.citation-copy:focus-visible {outline:2px solid var(--accent);outline-offset:3px;}
+@media(max-width:600px){.citation-panel{padding:14px;}.citation-toolbar{gap:14px;}}
+
+.paper-actions .abstract-toggle, .paper-actions .cite-toggle {margin:0;padding:8px 0;min-height:44px;box-sizing:border-box;font:400 11px/1.4 "IBM Plex Mono",monospace;}
