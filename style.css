@@ -1354,3 +1354,11 @@ a.research-award:hover {
 @media(max-width:600px){.citation-panel{padding:14px;}.citation-toolbar{gap:14px;}}
 
 .paper-actions .abstract-toggle, .paper-actions .cite-toggle {margin:0;padding:8px 0;min-height:44px;box-sizing:border-box;font:400 11px/1.4 "IBM Plex Mono",monospace;}
+
+.mentor-role {
+    display: block;
+    color: var(--muted);
+    font-size: .875rem;
+    line-height: 1.5;
+    margin-top: .25rem;
+}

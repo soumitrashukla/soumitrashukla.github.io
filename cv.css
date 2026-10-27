@@ -1,0 +1,51 @@
+/* CV uses the website's shared palette and typography. */
+.cv-page { max-width: 1060px; }
+.cv-skip { position: fixed; left: 1rem; top: -5rem; z-index: 200; padding: .75rem 1rem; background: var(--bg); }
+.cv-skip:focus { top: 1rem; }
+.cv-header { position: relative; padding-bottom: 2.5rem; border-bottom: 1px solid var(--rule); margin-bottom: 2.5rem; }
+.cv-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: .875rem; color: var(--accent); text-transform: uppercase; letter-spacing: .07em; display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; }
+.cv-eyebrow span { color: var(--muted); }
+.cv-header h1 { font: 400 clamp(2.75rem, 7vw, 4.5rem)/1.1 'Crimson Text', Georgia, serif; letter-spacing: -.035em; margin: 1.25rem 0 .75rem; }
+.cv-position { font-size: 1.125rem; margin-bottom: 1rem; }
+.cv-contact { display: flex; flex-direction: column; gap: .25rem; color: var(--muted); font-size: .875rem; overflow-wrap: anywhere; }
+.cv-contact a, .cv-footer a { text-underline-offset: .2em; text-decoration-color: var(--rule); }
+.cv-pdf { display: inline-flex; align-items: center; gap: 2rem; min-height: 44px; margin-top: 1.5rem; padding: .65rem 1rem; border: 1px solid var(--rule); text-decoration: none; font-weight: 500; }
+.cv-pdf span { font: .875rem 'IBM Plex Mono', monospace; color: var(--accent); }
+.cv-pdf:hover { background: var(--accent-soft); border-color: var(--accent); }
+.cv-layout { display: grid; grid-template-columns: minmax(0,1fr); gap: 2rem; }
+.cv-sidebar nav { height: auto; padding: 0 0 1.5rem; display: flex; flex-wrap: wrap; justify-content: flex-start; gap: .25rem 1.25rem; border-bottom: 1px solid var(--line); }
+.cv-sidebar a { min-height: 44px; display: flex; align-items: center; font-size: .875rem; text-decoration: none; color: var(--muted); }
+.cv-sidebar a:hover { color: var(--accent); }
+.cv-section { scroll-margin-top: 6rem; margin-bottom: 2.75rem; }
+.cv-section h2 { font: 600 1.75rem/1.2 'Crimson Text', Georgia, serif; margin-bottom: 1.25rem; padding-bottom: .65rem; border-bottom: 1px solid var(--line); }
+.cv-list { list-style: none; display: grid; gap: .875rem; font-size: 1rem; }
+.cv-list li { overflow-wrap: anywhere; }
+.cv-list a { text-decoration-color: var(--rule); text-underline-offset: .2em; }
+.cv-list a:hover { color: var(--accent); }
+.cv-dated { display: flex; flex-direction: column; gap: .2rem; }
+.cv-date { color: var(--muted); font: .875rem/1.7 'IBM Plex Mono', monospace; }
+.cv-talk { display: grid; grid-template-columns: minmax(0,1fr); gap: .4rem; }
+.cv-note { font-size: .875rem; color: var(--muted); margin: -.6rem 0 1rem; }
+.cv-footer { border-top: 1px solid var(--rule); padding-top: 1.5rem; color: var(--muted); font-size: .875rem; }
+@media (min-width: 768px) {
+  .cv-dated { flex-direction: row; justify-content: space-between; gap: 2rem; }
+  .cv-dated .cv-date { flex-shrink: 0; padding-top: .15rem; }
+  .cv-talk { grid-template-columns: 3.5rem minmax(0,1fr); gap: 1rem; }
+}
+@media (min-width: 1041px) {
+  .cv-layout { grid-template-columns: 10.5rem minmax(0,1fr); gap: 3.5rem; }
+  .cv-sidebar nav { position: sticky; top: 6rem; display: block; border-bottom: none; }
+  .cv-sidebar a { min-height: 44px; }
+  .cv-header { padding-right: 13rem; }
+  .cv-pdf { position: absolute; right: 0; top: 2.25rem; margin: 0; }
+}
+@media print {
+  .nav-container, .cv-sidebar, .cv-pdf, .cv-skip, .cv-footer { display: none; }
+  body { background: white; color: black; }
+  .cv-page { padding: 0; }
+  .cv-layout { display: block; }
+  .cv-header h1 { font-size: 2.5rem; }
+  .cv-section h2 { break-after: avoid; }
+  .cv-list li { break-inside: avoid; }
+  .cv-list a, .cv-contact a { color: black; text-decoration: none; }
+}
