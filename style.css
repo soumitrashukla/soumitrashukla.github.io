@@ -331,12 +331,12 @@ nav {
     grid-template-columns: 56px minmax(0, 1fr) auto;
     gap: 22px;
     align-items: center;
-    padding: 18px 22px;
+    padding: 16px 20px;
     color: var(--text);
-    background: var(--surface);
+    background: transparent;
     border: 1px solid var(--line);
-    border-left: 3px solid var(--accent);
-    border-radius: 8px;
+    border-left: 2px solid var(--line);
+    border-radius: 6px;
     text-decoration: none;
     transition: border-color 0.15s ease;
 }
@@ -359,6 +359,7 @@ nav {
     width: 1px;
     height: 32px;
     background: linear-gradient(to bottom, var(--line), var(--accent));
+    opacity: 0.65;
 }
 
 .act-now-line::after {
@@ -386,7 +387,7 @@ nav {
 
 .act-now-title {
     font-family: 'Crimson Text', Georgia, serif;
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -1200,7 +1201,7 @@ a.research-award:hover {
     .act-now-feature {
         grid-template-columns: 40px minmax(0, 1fr);
         gap: 16px;
-        padding: 16px;
+        padding: 16px 20px;
     }
 
     .act-now-timeline {
