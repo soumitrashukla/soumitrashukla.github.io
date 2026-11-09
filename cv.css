@@ -49,3 +49,8 @@
   .cv-list li { break-inside: avoid; }
   .cv-list a, .cv-contact a { color: black; text-decoration: none; }
 }
+
+/* Numbered CV entries retain the date alignment of the existing lists. */
+.cv-numbered { counter-reset: cv-entry; padding-left: 2rem; }
+.cv-numbered > li { position: relative; counter-increment: cv-entry; }
+.cv-numbered > li::before { content: counter(cv-entry) "."; position: absolute; right: calc(100% + .6rem); color: var(--muted); }
