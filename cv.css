@@ -53,6 +53,6 @@
 /* Numbered CV entries retain the date alignment of the existing lists. */
 .cv-numbered { counter-reset: cv-entry; padding-left: 2rem; }
 .cv-numbered > li { position: relative; counter-increment: cv-entry; }
-.cv-numbered > li::before { content: counter(cv-entry) "."; position: absolute; right: calc(100% + .6rem); color: var(--muted); }
+.cv-numbered > li::before { content: counter(cv-entry) "."; position: absolute; right: calc(100% + .6rem); width: 2em; text-align: right; white-space: nowrap; overflow-wrap: normal; color: var(--muted); }
 
 #in-progress .cv-numbered { counter-reset: cv-entry 4; }
