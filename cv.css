@@ -54,3 +54,5 @@
 .cv-numbered { counter-reset: cv-entry; padding-left: 2rem; }
 .cv-numbered > li { position: relative; counter-increment: cv-entry; }
 .cv-numbered > li::before { content: counter(cv-entry) "."; position: absolute; right: calc(100% + .6rem); color: var(--muted); }
+
+#in-progress .cv-numbered { counter-reset: cv-entry 4; }
