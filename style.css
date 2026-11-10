@@ -922,6 +922,15 @@ a.research-award:hover {
     color: var(--muted);
 }
 
+.talk-panel-full {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .talk-panel-full { display: inline; }
+    .talk-panel-short { display: none; }
+}
+
 .talk-panel::before {
     content: 'Theme: ';
     margin-right: 4px;
@@ -1274,9 +1283,6 @@ a.research-award:hover {
         grid-column: 1;
     }
 
-    .talk-panel {
-        display: none;
-    }
 
     .talk-item:has(.mention-source) {
         grid-template-columns: 1fr;
