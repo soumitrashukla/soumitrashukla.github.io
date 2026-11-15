@@ -457,6 +457,21 @@ nav {
     font-weight: 600;
 }
 
+.aff b a.aff-center {
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+}
+
+.aff-center-mobile {
+    display: none;
+}
+
+@media (max-width: 560px) {
+    .aff-center-desktop { display: none; }
+    .aff-center-mobile { display: inline; }
+}
+
 .aff-note {
     color: var(--faint);
 }
